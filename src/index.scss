@@ -1,6 +1,6 @@
 @import "./assets/scss/_swiper-plugin.scss";
 
-@font-face {
+/* @font-face {
 	font-family: Marck Script;
 	src: url("./assets/fonts/Marck-Script.woff2");
 }
@@ -8,7 +8,7 @@
 @font-face {
 	font-family: Roboto Slab;
 	src: url("./assets/fonts/Roboto-Slab.woff2");
-}
+} */
 
 @keyframes wave-animate {
 	0% {
@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Marck Script;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: 300;
 }
 
@@ -53,7 +53,7 @@ body {
 	margin: 0;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	font-family: Roboto Slab;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -66,15 +66,13 @@ body {
 		main {
 			flex: 1 0 auto;
 			> div {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-
+				margin-top: 64px;
+				margin-left: 32px;
+				margin-right: 32px;
 				section {
+					margin: auto;
+					margin-bottom: 32px;
 					max-width: 1064px;
-					margin-left: 32px !important;
-					margin-right: 32px !important;
 
 					&:last-child {
 						margin-bottom: 48px;
@@ -94,12 +92,14 @@ body {
 		div#root {
 			main {
 				> div {
+					margin-top: 0;
 					section {
 						&:last-child {
-							margin-bottom: 32px !important;
+							margin-bottom: 48px !important;
 						}
 						&.full-width-small {
-							margin: 0 !important;
+							margin: 0 -32px !important;
+							margin-bottom: 32px !important;
 						}
 					}
 				}
@@ -125,4 +125,38 @@ body {
 	margin-right: 16px;
 	margin-bottom: 16px;
 	max-width: 23.3%;
+}
+
+table,
+th,
+td {
+	border: none;
+}
+
+table {
+	display: table;
+	margin: auto;
+	width: 100%;
+	max-width: 512px;
+	border-collapse: collapse;
+	border-spacing: 0;
+
+	&.centered {
+		thead tr th,
+		tbody tr td {
+			text-align: center;
+		}
+	}
+
+	tr {
+		border-bottom: 0.5px solid #ccc;
+
+		td,
+		th {
+			line-height: 32px;
+			display: table-cell;
+			text-align: left;
+			vertical-align: middle;
+		}
+	}
 }

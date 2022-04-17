@@ -3,7 +3,7 @@ import './Footer.scss'
 const Footer = () => {
 	return (
 		<footer>
-			<div id="footer" className='none'>
+			<div id="footer" className='hide'>
 				<div>
 					<div>
 						<h3 className='widget-title'>Footer widget 1</h3>

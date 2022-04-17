@@ -66,7 +66,6 @@ header {
 
 			li {
 				a {
-					font-family: "Marck Script", cursive;
 					padding: 12px;
 					font-size: 26px;
 					border-radius: 3px;
@@ -74,7 +73,6 @@ header {
 
 					&.active {
 						box-shadow: 0 -2px 0 inset rgba(0, 0, 0, 0.1);
-						/* background: rgba(0, 0, 0, .05); */
 						transition: box-shadow 0.7s;
 					}
 				}
@@ -102,7 +100,6 @@ header {
 		padding-left: 0;
 
 		a {
-			font-family: "Marck Script", cursive;
 			display: flex;
 			flex-flow: column;
 			line-height: 64px;
