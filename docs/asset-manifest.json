@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f9bec95.css",
+    "main.js": "/static/js/main.b8149b41.js",
+    "static/js/787.2d04492b.chunk.js": "/static/js/787.2d04492b.chunk.js",
+    "static/media/1.jpg": "/static/media/1.a541f622aea9920ff093.jpg",
+    "static/media/2.jpg": "/static/media/2.49ba67d9fe321f1e1c12.jpg",
+    "static/media/3.jpg": "/static/media/3.f98ddfdfd9c61697d82a.jpg",
+    "static/media/lada.png": "/static/media/lada.a0cb8f27c20d5ad1de95.png",
+    "static/media/Roboto-Slab.woff2": "/static/media/Roboto-Slab.c3b7b16e514e103e6aa1.woff2",
+    "static/media/logo.jpg": "/static/media/logo.b6a6c8c121aa67c40ce4.jpg",
+    "static/media/Marck-Script.woff2": "/static/media/Marck-Script.ead8ba6dfcb263732fc5.woff2",
+    "index.html": "/index.html",
+    "main.7f9bec95.css.map": "/static/css/main.7f9bec95.css.map",
+    "main.b8149b41.js.map": "/static/js/main.b8149b41.js.map",
+    "787.2d04492b.chunk.js.map": "/static/js/787.2d04492b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f9bec95.css",
+    "static/js/main.b8149b41.js"
+  ]
+}

@@ -1,0 +1,145 @@
+@media only screen and (min-width: 1065px) {
+	.menu-button {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1064px) {
+	header {
+		nav {
+			justify-content: space-between;
+
+			h1 {
+				font-size: 1.7em !important;
+				position: initial !important;
+			}
+
+			.menu-button {
+				margin: 0 2em 0 1em;
+				border: 1px rgb(255, 255, 255) solid;
+				border-radius: 50%;
+				padding: 16px;
+				width: 64px;
+				height: 64px;
+				cursor: pointer;
+			}
+
+			ul.menu {
+				display: none !important;
+			}
+		}
+	}
+}
+
+header {
+	display: flex;
+	justify-content: center;
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+		width: 1064px;
+		height: 96px;
+
+		img.monogram {
+			height: 64px;
+			margin: 1em;
+		}
+
+		h1 {
+			position: absolute;
+			left: 3.5em;
+			font-size: 2em;
+			cursor: default;
+			align-self: center;
+		}
+
+		.menu-button {
+			background: none;
+		}
+
+		ul.menu {
+			display: flex;
+			padding: 0;
+			padding-right: 1rem;
+
+			li {
+				a {
+					font-family: "Marck Script", cursive;
+					padding: 12px;
+					font-size: 26px;
+					border-radius: 3px;
+					display: block;
+
+					&.active {
+						box-shadow: 0 -2px 0 inset rgba(0, 0, 0, 0.1);
+						/* background: rgba(0, 0, 0, .05); */
+						transition: box-shadow 0.7s;
+					}
+				}
+			}
+		}
+	}
+
+	.sidenav {
+		position: fixed;
+		width: 300px;
+		right: 0;
+		top: 0;
+		margin: 0;
+		transform: translateX(100%);
+		height: 100%;
+		height: -moz-calc(100%);
+		height: calc(100% + 60px);
+		padding-bottom: 60px;
+		background-color: white;
+		z-index: 999;
+		overflow-y: auto;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		transform: translateX(105%);
+		padding-left: 0;
+
+		a {
+			font-family: "Marck Script", cursive;
+			display: flex;
+			flex-flow: column;
+			line-height: 64px;
+			font-size: 1.4rem;
+			padding-left: 16px;
+
+			&.active {
+				box-shadow: 4px 0 0 inset rgba(0, 0, 0, 0.2);
+			}
+
+			&:hover {
+				background: rgba(0, 0, 0, 0.05);
+				color: #000;
+			}
+
+			&:focus {
+				background: rgba(0, 0, 0, 0.1);
+				outline: none;
+			}
+		}
+	}
+
+	.sidenav-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		width: 100vw;
+		background: #000;
+		z-index: 999;
+		opacity: 0.5;
+		transition: opacity 0.3s;
+	}
+
+	.sidenav-overlay.hide {
+		opacity: 0;
+		height: 0vh;
+		width: 0vw;
+	}
+}

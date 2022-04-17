@@ -1,0 +1,132 @@
+/* @import './reset'; */
+@import './keyframes';
+@import './variables';
+@import './html-tags';
+
+@font-face {
+	font-family: Marck Script;
+	src: url('./../fonts/marck-script.woff2');
+}
+.swiper-grid > .swiper-wrapper {
+  flex-wrap: wrap;
+}
+.swiper-grid-column > .swiper-wrapper {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.hide {
+	display: none;
+}
+
+body {
+	margin: 0;
+	overflow-y: scroll;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	#root {
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+
+		brand-header-image {
+			max-height: 5vh;
+		}
+
+		header {
+			background: transparent;
+			position: relative;
+			margin: auto;
+		}
+
+		main {
+			flex-grow: 1;
+			flex-shrink: 0;
+			flex-basis: auto;
+			flex-direction: column;
+
+			>div {
+				max-width: 1000px;
+				margin: auto;
+
+				.page-enter {
+					opacity: 0;
+				}
+
+				.page-enter-active {
+					opacity: 1;
+					transition: opacity 400ms;
+				}
+
+				.page-exit {
+					display: none;
+				}
+
+			}
+		}
+
+		footer {
+			border-top: 1px #ddd solid;
+			background: $primary;
+			font-family: Roboto Slab;
+			color: #888;
+			margin-top: 64px;
+
+			#footer {
+				max-width: 1000px;
+				padding: 30px 0 46px 0;
+				margin: auto;
+				display: flex;
+				flex-direction: row;
+
+				h3 {
+					margin-bottom: 0;
+				}
+
+				p {
+					margin-top: 8px;
+					font-size: 1rem;
+				}
+			}
+
+			#meta {
+				border-top: 1px #ddd solid;
+				padding: 16px 8px;
+				font-size: 12px;
+
+				>div {
+					margin: auto;
+					max-width: 1000px;
+					display: flex;
+					justify-content: space-between;
+
+					a {
+						color: #555;
+
+						&:hover {
+							color:#000;
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	footer {
+		margin-top: 32px !important;
+
+		#footer {
+			padding: 4px 32px 16px 32px !important;
+			flex-direction: column !important;
+		}
+	}
+
+
+	#meta {
+		padding: 8px !important;
+	}
+}

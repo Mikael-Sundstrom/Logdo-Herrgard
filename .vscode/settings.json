@@ -1,0 +1,22 @@
+{
+	"files.exclude": {
+		"**/.gitignore": true,
+		"**/README.md": true,
+		"**/reportWebVitals.js": true,
+		"**/setupTests.js": true,
+		"**/*test.js": true,
+		"**/.vscode": false,
+		"**/node_modules": true,
+		"**/index.js": false,
+		"**/build": false,
+		"**/index.scss": false
+	},
+	"editor.tabSize": 4,
+	"editor.linkedEditing": true,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"editor.minimap.maxColumn": 256,
+	"scss.lint.compatibleVendorPrefixes": "ignore"
+}
