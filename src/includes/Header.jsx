@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom'
 import Ripple from "./_Waves";
 
 import logo from './../assets/images/logo.jpg'
-import './Header.scss'
 
 
 const Header = (props) => {

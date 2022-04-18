@@ -1,9 +1,9 @@
 import { motion } from "framer-motion"
 
 const animations = {
-	initial: { opacity: 0, transform: 'scale(1.1)' },
+	initial: { opacity: 0, transform: 'scale(0.95)' },
 	animate: { opacity: 1, transform: 'scale(1)' },
-	exit: { opacity: 0, transform: 'scale(0.9)' }
+	exit: { opacity: 0, transform: 'scale(0.95)' }
 }
 
 const AnimateFadePage = ({ children }) => {
