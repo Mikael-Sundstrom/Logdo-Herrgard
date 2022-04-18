@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/logdo-herrgard/static/css/main.df7187de.css",
-    "main.js": "/logdo-herrgard/static/js/main.8731a339.js",
+    "main.css": "/logdo-herrgard/static/css/main.d035bdf2.css",
+    "main.js": "/logdo-herrgard/static/js/main.d293448c.js",
     "static/js/787.2d04492b.chunk.js": "/logdo-herrgard/static/js/787.2d04492b.chunk.js",
     "static/media/1.jpg": "/logdo-herrgard/static/media/1.a541f622aea9920ff093.jpg",
     "static/media/2.jpg": "/logdo-herrgard/static/media/2.49ba67d9fe321f1e1c12.jpg",
@@ -9,12 +9,12 @@
     "static/media/lada.png": "/logdo-herrgard/static/media/lada.a0cb8f27c20d5ad1de95.png",
     "static/media/logo.jpg": "/logdo-herrgard/static/media/logo.b6a6c8c121aa67c40ce4.jpg",
     "index.html": "/logdo-herrgard/index.html",
-    "main.df7187de.css.map": "/logdo-herrgard/static/css/main.df7187de.css.map",
-    "main.8731a339.js.map": "/logdo-herrgard/static/js/main.8731a339.js.map",
+    "main.d035bdf2.css.map": "/logdo-herrgard/static/css/main.d035bdf2.css.map",
+    "main.d293448c.js.map": "/logdo-herrgard/static/js/main.d293448c.js.map",
     "787.2d04492b.chunk.js.map": "/logdo-herrgard/static/js/787.2d04492b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df7187de.css",
-    "static/js/main.8731a339.js"
+    "static/css/main.d035bdf2.css",
+    "static/js/main.d293448c.js"
   ]
 }
