@@ -15,8 +15,8 @@ import Footer from './includes/Footer'
 const routes = [
 	{ name: "Hem", path: "/logdo-herrgard", component: <Home /> },
 	{ name: "Historia", path: "/historia", component: <History /> },
-	{ name: "Boka", path: "/reserve", component: <Reserve /> },
 	{ name: "Galleri", path: "/gallery", component: <Gallery /> },
+	{ name: "Priser", path: "/reserve", component: <Reserve /> },
 ]
 
 const App = () => {

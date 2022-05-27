@@ -4,7 +4,7 @@ const Reserve = () => {
 	return (
 		<AnimateFadePage>
 			<section>
-				<h2>Boka</h2>
+				<h2>Priser</h2>
 				<br />
 				<table>
 					<caption>Övernattning</caption>
