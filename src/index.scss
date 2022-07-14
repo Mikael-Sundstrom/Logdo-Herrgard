@@ -54,6 +54,18 @@ a {
 	text-decoration: none;
 }
 
+.btn {
+	padding: 8px 16px;
+	font-size: 18px;
+	background: #ddd;
+	border-radius: 3px;
+	box-shadow: #333 0 1px 0px;
+
+	&:focus {
+		background: #eee;
+	}
+}
+
 body {
 	margin: 0;
 	overflow-x: hidden;
@@ -69,6 +81,7 @@ body {
 		flex-direction: column;
 
 		header {
+			box-shadow: 0px 1px rgb(0 0 0 / 10%);
 			display: flex;
 			justify-content: center;
 
@@ -100,13 +113,13 @@ body {
 
 					li {
 						a {
-							padding: 12px;
-							font-size: 26px;
-							border-radius: 3px;
+							padding: 12px 16px;
+							font-size: 20px;
+							border-radius: 0px;
 							display: block;
 
 							&.active {
-								box-shadow: 0 -2px 0 inset rgba(0, 0, 0, 0.1);
+								box-shadow: 0 -2px 0 inset rgba(0, 0, 0, 0.15);
 								transition: box-shadow 0.7s;
 							}
 						}
@@ -177,21 +190,42 @@ body {
 
 		main {
 			flex: 1 0 auto;
+
 			> div {
-				margin-top: 64px;
-				margin-left: 32px;
-				margin-right: 32px;
+				margin-top: 0px;
+				margin-left: 0px;
+				margin-right: 0px;
+
 				section {
 					margin: auto;
-					margin-bottom: 32px;
+					margin-bottom: 64px;
 					max-width: 1064px;
 
 					&:last-child {
-						margin-bottom: 48px;
+						margin-bottom: 64px;
 					}
 
 					h2 {
 						text-align: center;
+					}
+
+					div.home-brands {
+						display: flex;
+						flex-direction: row;
+						justify-content: space-around;
+
+						div {
+							display: flex;
+							flex-direction: column;
+							min-width: 267px;
+							align-items: center;
+							margin: 32px;
+							text-align: center;
+
+							.brand {
+								width: 100px;
+							}
+						}
 					}
 				}
 			}
@@ -213,12 +247,29 @@ body {
 					> div {
 						margin: 30px 0 46px 0;
 
+						h3 {
+							margin: 0px;
+						}
+
+						ul {
+							padding: 0;
+
+							li {
+								list-style: none;
+
+								a:hover {
+									text-decoration: underline;
+								}
+							}
+						}
+
 						&:first-child {
 							margin-right: 32px;
 						}
 
 						&:last-child {
 							margin-left: 32px;
+							min-width: 33%;
 						}
 
 						h3.widget-title {
@@ -303,8 +354,12 @@ body {
 						}
 
 						&.full-width-small {
-							margin: 0 -32px;
+							margin: 0;
 							margin-bottom: 32px;
+						}
+
+						div.home-brands {
+							flex-direction: column;
 						}
 					}
 				}

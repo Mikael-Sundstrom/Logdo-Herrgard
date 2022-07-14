@@ -13,7 +13,7 @@ const AnimateFadePage = ({ children }) => {
 			initial="initial"
 			animate="animate"
 			exit="exit"
-			transition={{ duration: .3 }}
+			transition={{ duration: .25 }}
 		>
 			{children}
 		</motion.div>

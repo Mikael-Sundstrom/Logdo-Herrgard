@@ -10,7 +10,7 @@ const Header = (props) => {
 
 	const [slider, setSlider] = useState(false)
 
-	const nav = routes.map((item, key) => <Ripple key={key} color="rgba(0,0,0,.1)" animationDuration={1000} animationEasing="ease-out"><li key={key}><NavLink className={(navData) => (navData.isActive ? "active waves-effect" : 'waves-effect')} to={item.path}>{item.name}</NavLink></li></Ripple>)
+	const nav = routes.map((item, key) => <Ripple key={key} color="rgba(0,0,0,.1)" animationDuration={1000} animationEasing="ease-out"><li key={key} className={item.class}><NavLink className={(navData) => (navData.isActive ? "active waves-effect" : 'waves-effect')} to={item.path}>{item.name}</NavLink></li></Ripple>)
 	const sidenav = routes.map((item, key) => <li key={key} onClick={() => setSlider(s => !s)}><NavLink className={(navData) => (navData.isActive ? "active waves-effect" : 'waves-effect')} to={item.path}>{item.name}</NavLink></li>)
 
 	return (
