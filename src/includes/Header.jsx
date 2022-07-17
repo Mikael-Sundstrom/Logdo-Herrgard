@@ -17,7 +17,7 @@ const Header = (props) => {
 		<header>
 			<nav>
 				<Link to="/logdo-herrgard"><img className='monogram' src={logo} alt="logo" /></Link>
-				<Link to="/logdo-herrgard"><h1>Lögdö Herrgård</h1></Link>
+				<h1>Lögdö Herrgård</h1>
 				<button type="button" className="menu-button" onClick={() => setSlider(s => !s)}>
 					<svg xmlns="http://www.w3.org/2000/svg" width="32px" viewBox="0 0 24 24" fill="#aaa"><path d="M0 0h24v24H0V0z" fill="none" /><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>
 				</button>
@@ -30,7 +30,7 @@ const Header = (props) => {
 			<ul className="menu sidenav" style={{ transform: slider ? "translateX(0%)" : "", transitionProperty: "transform", transitionDuration: ".25s" }} >
 				{sidenav}
 			</ul>
-		</header>
+		</header >
 	);
 }
 
