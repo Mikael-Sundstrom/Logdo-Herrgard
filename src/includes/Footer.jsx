@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
-		<footer>
-			<div id="footer" className='hide-off'>
+		<aside>
+			<div className='footer hide'>
 				<div>
 
 					<div>
@@ -37,7 +37,7 @@ const Footer = () => {
 					<span className='do-not-remove'>Skapad av <a href="http://mikaelsundstrom.se">Mikael Sundström</a></span>
 				</div>
 			</div>
-		</footer>
+		</aside>
 	)
 }
 

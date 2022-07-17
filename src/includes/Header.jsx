@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import Ripple from "./_Waves";
 
 import logo from './../assets/images/logo.jpg'
@@ -11,13 +11,13 @@ const Header = (props) => {
 	const [slider, setSlider] = useState(false)
 
 	const nav = routes.map((item, key) => <Ripple key={key} color="rgba(0,0,0,.1)" animationDuration={1000} animationEasing="ease-out"><li key={key} className={item.class}><NavLink className={(navData) => (navData.isActive ? "active waves-effect" : 'waves-effect')} to={item.path}>{item.name}</NavLink></li></Ripple>)
-	const sidenav = routes.map((item, key) => <li key={key} onClick={() => setSlider(s => !s)}><NavLink className={(navData) => (navData.isActive ? "active waves-effect" : 'waves-effect')} to={item.path}>{item.name}</NavLink></li>)
+	const sidenav = routes.map((item, key) => <li key={key} onClick={() => setSlider(s => !s)} className={item.class}><NavLink className={(navData) => (navData.isActive ? "active waves-effect" : 'waves-effect')} to={item.path}>{item.name}</NavLink></li>)
 
 	return (
 		<header>
 			<nav>
-				<img className='monogram' src={logo} alt="logo" />
-				<h1>Lögdö Herrgård</h1>
+				<Link to="/logdo-herrgard"><img className='monogram' src={logo} alt="logo" /></Link>
+				<Link to="/logdo-herrgard"><h1>Lögdö Herrgård</h1></Link>
 				<button type="button" className="menu-button" onClick={() => setSlider(s => !s)}>
 					<svg xmlns="http://www.w3.org/2000/svg" width="32px" viewBox="0 0 24 24" fill="#aaa"><path d="M0 0h24v24H0V0z" fill="none" /><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>
 				</button>

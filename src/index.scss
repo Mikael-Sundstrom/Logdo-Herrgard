@@ -231,11 +231,12 @@ body {
 			}
 		}
 
-		footer {
+		footer,
+		aside {
 			display: flex;
 			flex-direction: column;
 
-			div#footer {
+			div.footer {
 				display: flex;
 				justify-content: center;
 				border-top: 1px #ddd solid;
@@ -365,8 +366,9 @@ body {
 				}
 			}
 
-			footer {
-				div#footer {
+			footer,
+			aside {
+				div.footer {
 					> div {
 						flex-direction: column !important;
 
@@ -392,7 +394,7 @@ body {
 		margin-right: 0 !important;
 		margin-left: -32px !important;
 		margin-bottom: 32px !important;
-		width: calc(100% + 64px) !important;
+		width: calc(100% + 32px) !important;
 		max-width: calc(100% + 64px) !important;
 	}
 }
