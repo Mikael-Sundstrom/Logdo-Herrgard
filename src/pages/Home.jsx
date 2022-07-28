@@ -4,8 +4,8 @@ import AnimateFadePage from '../includes/_AnimateFadePage';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectFade, Autoplay, Navigation } from 'swiper';
 
-import img1 from './../assets/images/q1.jpg'
-import img3 from './../assets/images/q.jpg'
+import img1 from './../assets/images/start.jpg'
+import img3 from './../assets/images/q1.jpg'
 import placeholder from './../assets/images/placeholder-icon.jpg'
 
 const slider = [img1, img3]

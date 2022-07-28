@@ -30,7 +30,7 @@ const Header = (props) => {
 			<ul className="menu sidenav" style={{ transform: slider ? "translateX(0%)" : "", transitionProperty: "transform", transitionDuration: ".25s" }} >
 				{sidenav}
 			</ul>
-		</header >
+		</header>
 	);
 }
 

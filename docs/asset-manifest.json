@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/logdo-herrgard/static/css/main.4c2841ec.css",
-    "main.js": "/logdo-herrgard/static/js/main.852acf28.js",
+    "main.css": "/logdo-herrgard/static/css/main.2c3a9c21.css",
+    "main.js": "/logdo-herrgard/static/js/main.f81e13e6.js",
     "static/js/787.2d04492b.chunk.js": "/logdo-herrgard/static/js/787.2d04492b.chunk.js",
     "static/media/lada.png": "/logdo-herrgard/static/media/lada.a0cb8f27c20d5ad1de95.png",
-    "static/media/q.jpg": "/logdo-herrgard/static/media/q.c1a0ee5f3bda63cac5c6.jpg",
     "static/media/q1.jpg": "/logdo-herrgard/static/media/q1.7eb8fac0e5940816fe2b.jpg",
+    "static/media/dubbelrum-1.jpg": "/logdo-herrgard/static/media/dubbelrum-1.895ce5c35c8685da6070.jpg",
+    "static/media/enkelrum-1.jpg": "/logdo-herrgard/static/media/enkelrum-1.f4d9a36479dc936f42b4.jpg",
+    "static/media/macka-2.jpg": "/logdo-herrgard/static/media/macka-2.8c6d509811c2605bb17b.jpg",
+    "static/media/hall-uppe.jpg": "/logdo-herrgard/static/media/hall-uppe.caff64f4797f4c9e97a7.jpg",
+    "static/media/dubbelrum-2.jpg": "/logdo-herrgard/static/media/dubbelrum-2.2f4aa8ad0a93ac5a5eb1.jpg",
+    "static/media/macka-3.jpg": "/logdo-herrgard/static/media/macka-3.f69cfe39906147154d17.jpg",
+    "static/media/macka-5.jpg": "/logdo-herrgard/static/media/macka-5.fd273701af7b27e64c76.jpg",
+    "static/media/macka-4.jpg": "/logdo-herrgard/static/media/macka-4.df215b5b040ab2d4bc1c.jpg",
+    "static/media/macka-1.jpg": "/logdo-herrgard/static/media/macka-1.5fafdfaee0ec2c3d8372.jpg",
+    "static/media/start.jpg": "/logdo-herrgard/static/media/start.9d20574fef53b3b96d2f.jpg",
     "static/media/logo.jpg": "/logdo-herrgard/static/media/logo.b6a6c8c121aa67c40ce4.jpg",
+    "static/media/gabby-och-bosse.jpg": "/logdo-herrgard/static/media/gabby-och-bosse.694480a21b7ecbdbe65c.jpg",
     "index.html": "/logdo-herrgard/index.html",
-    "main.4c2841ec.css.map": "/logdo-herrgard/static/css/main.4c2841ec.css.map",
-    "main.852acf28.js.map": "/logdo-herrgard/static/js/main.852acf28.js.map",
+    "main.2c3a9c21.css.map": "/logdo-herrgard/static/css/main.2c3a9c21.css.map",
+    "main.f81e13e6.js.map": "/logdo-herrgard/static/js/main.f81e13e6.js.map",
     "787.2d04492b.chunk.js.map": "/logdo-herrgard/static/js/787.2d04492b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c2841ec.css",
-    "static/js/main.852acf28.js"
+    "static/css/main.2c3a9c21.css",
+    "static/js/main.f81e13e6.js"
   ]
 }
