@@ -1,12 +1,26 @@
+import { useEffect } from 'react';
+import M from 'materialize-css/dist/js/materialize.min.js';
+
 import dubbelrum1 from './../../assets/images/bab/dubbelrum-1.jpg'
 import dubbelrum2 from './../../assets/images/bab/dubbelrum-2.jpg'
 import enkelrum1 from './../../assets/images/bab/enkelrum-1.jpg'
 import hallUppe from './../../assets/images/bab/hall-uppe.jpg'
 
 const Rooms = () => {
+	useEffect(() => {
+		M.Materialbox.init(document.querySelectorAll('.materialboxed'), {
+			inDuration: 200,
+			outDuration: 150,
+			onOpenStart: null,
+			onOpenEnd: null,
+			onCloseStart: null,
+			onCloseEnd: null
+		})
+	})
+
 	return (
 		<div>
-			<h2>Sovrum</h2>
+			<h2>Rum</h2>
 			<br />
 			<div className='row'>
 				<div className='col s12 m4'>

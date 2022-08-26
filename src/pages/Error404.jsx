@@ -1,5 +1,7 @@
+// Core
 import AnimateFadePage from '../includes/_AnimateFadePage';
 
+// Component
 const Error404 = () => {
 	return (
 		<AnimateFadePage>

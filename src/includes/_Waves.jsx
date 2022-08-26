@@ -60,3 +60,13 @@ const Ripple = ({
 }
 
 export default Ripple
+
+/** How to use
+
+<Ripple key={key} color="rgba(0,0,0,.1)" animationDuration={1000} animationEasing="ease-out">
+	<button>
+		Link text
+	</button>
+</Ripple>
+
+ */

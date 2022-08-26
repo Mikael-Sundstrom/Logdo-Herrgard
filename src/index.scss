@@ -1,7 +1,6 @@
 $mobile-width: 1064;
 $border: 0.5px solid #ccc;
 $font-family: Georgia, "Times New Roman", Times, serif;
-$font-family-header: Georgia, "Times New Roman", Times, serif;
 
 @import "./assets/scss/_swiper-plugin.scss";
 @import "./assets/scss/materialize/materialize";
@@ -46,20 +45,6 @@ $font-family-header: Georgia, "Times New Roman", Times, serif;
 	to {
 		transform: rotate(360deg);
 	}
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: $font-family-header;
-	font-weight: 300;
-}
-
-h2 {
-	font-size: 2.2em;
 }
 
 a {
@@ -115,6 +100,7 @@ body {
 					position: absolute;
 					left: 3.5em;
 					font-size: 2em;
+					margin: 0;
 					cursor: default;
 					align-self: center;
 				}
@@ -232,7 +218,7 @@ body {
 							flex-direction: column;
 							min-width: 267px;
 							align-items: center;
-							margin: 32px;
+							margin: 32px 0;
 							text-align: center;
 
 							.brand {
@@ -422,142 +408,3 @@ body {
 	margin-bottom: 16px;
 	max-width: 24%;
 }
-
-table,
-th,
-td {
-	border: none;
-}
-
-table {
-	display: table;
-	margin: auto;
-	width: 100%;
-	max-width: 512px;
-	border-collapse: collapse;
-	border-spacing: 0;
-
-	tr {
-		border-bottom: $border;
-
-		td,
-		th {
-			height: 40px;
-			display: table-cell;
-			text-align: left;
-			vertical-align: middle;
-		}
-	}
-}
-
-/* .card {
-	position: relative;
-	margin: 0.5rem 16px 1rem 16px;
-	background-color: #fff;
-	-webkit-transition: -webkit-box-shadow 0.25s;
-	transition: -webkit-box-shadow 0.25s;
-	transition: box-shadow 0.25s;
-	transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
-	border-radius: 2px;
-	max-width: 100%;
-}
-.card .card-image {
-	position: relative;
-}
-.card .card-image img {
-	display: block;
-	border-radius: 2px 2px 0 0;
-	position: relative;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	width: 100%;
-}
-.card .card-image .card-title {
-	color: #fff;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	max-width: 100%;
-	padding: 24px;
-}
-.card .card-title {
-	font-size: 24px;
-	font-weight: 300;
-}
-.card .card-content {
-	padding: 24px;
-	border-radius: 0 0 2px 2px;
-}
-.card .card-content p {
-	margin: 0;
-}
-.card-panel span,
-.card-content p {
-	-webkit-font-smoothing: antialiased;
-}
-.card .card-action:last-child {
-	border-radius: 0 0 2px 2px;
-}
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-	color: #ffab40;
-	margin-right: 24px;
-	-webkit-transition: color 0.3s ease;
-	transition: color 0.3s ease;
-	text-transform: uppercase;
-}
-.z-depth-1,
-.card-panel,
-.card,
-.toast,
-.btn,
-.btn-large,
-.btn-small,
-.btn-floating,
-.dropdown-content,
-.collapsible,
-.sidenav {
-	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12),
-		0 1px 5px 0 rgba(0, 0, 0, 0.2);
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-} */
-
-/* .active {
-	background-color: white;
-	background-color: rgba(0, 0, 0, 0.1);
-}
-.active:hover,
-.active:focus {
-	background-color: rgba(0, 0, 0, 0.1);
-} */
-/*
-.btn.disabled,
-.disabled.btn-large,
-.disabled.btn-small,
-.btn-floating.disabled,
-.btn-large.disabled,
-.btn-small.disabled,
-.btn-flat.disabled,
-.btn:disabled,
-.btn-large:disabled,
-.btn-small:disabled,
-.btn-floating:disabled,
-.btn-large:disabled,
-.btn-small:disabled,
-.btn-flat:disabled,
-.btn[disabled],
-[disabled].btn-large,
-[disabled].btn-small,
-.btn-floating[disabled],
-.btn-large[disabled],
-.btn-small[disabled],
-.btn-flat[disabled] {
-	pointer-events: none;
-	background-color: #dfdfdf !important;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	color: #9f9f9f !important;
-	cursor: default;
-}
- */

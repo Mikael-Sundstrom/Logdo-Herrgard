@@ -7,6 +7,10 @@ import { EffectFade, Autoplay, Navigation } from 'swiper';
 import img1 from './../assets/images/start.jpg'
 import img3 from './../assets/images/q1.jpg'
 import placeholder from './../assets/images/placeholder-icon.jpg'
+import img_bab from './../assets/images/home/bab.jpg'
+import img_cafe from './../assets/images/home/cafe.jpg'
+import img_pottery from './../assets/images/home/pottery.jpg'
+import img_activity from './../assets/images/home/activities.jpg'
 
 const slider = [img1, img3]
 
@@ -37,52 +41,133 @@ const Home = () => {
 			</section>
 
 			<section>
-				<div className='home-brands'>
-					<div>
-						<img className='brand' src={placeholder} alt='logo' />
-						<h3>Bed and Brekfast</h3>
+				<div className='home-brands row'>
+					<div className="col s12 m6">
+						<img className='brand' src={img_bab} alt='logo' />
+						<h4>Bed and Brekfast</h4>
 						<p>Kom och upplev hergårdslivet här hos oss i Lögdö utanför Timrå.</p>
 						<br />
 						<Link to='/BaB' className="btn">Läs mer..</Link>
 					</div>
-					<div>
-						<img className='brand' src={placeholder} alt='logo' />
-						<h3>Kafé</h3>
+					<div className="col s12 m6">
+						<img className='brand' src={img_cafe} alt='logo' />
+						<h4>Kafé</h4>
 						<p>Besök vårat helgkafé där du kan sitta i en helt unik miljö.</p>
 						<br />
 						<Link to='/kafe' className="btn">Läs mer..</Link>
 					</div>
-					<div>
-						<img className='brand' src={placeholder} alt='logo' />
-						<h3>Keramik</h3>
+					<div className="col s12 m6 l4">
+						<img className='brand' src={img_pottery} alt='logo' />
+						<h4>Keramik</h4>
 						<p>Från kurser till hantverk i både keramik och träsniderier.</p>
 						<br />
 						<Link to='/keramik' className="btn">Läs mer..</Link>
 					</div>
 				</div>
-				<div className='home-brands'>
-					<div>
-						<img className='brand' src={placeholder} alt='logo' />
-						<h3>I närheten</h3>
+				{/* <div className='home-brands row'>
+
+					<div className="col s12 m6 l4">
+						<img className='brand' src={img_activity} alt='logo' />
+						<h4>I närheten</h4>
 						<p>Lorem ipsum dolor</p>
 						<br />
 						<Link to='/aktiviteter' className="btn">Läs mer..</Link>
 					</div>
-					<div>
+					<div className="col s12 m6 l4">
 						<img className='brand' src={placeholder} alt='logo' />
-						<h3>Galleri</h3>
+						<h4>Galleri</h4>
 						<p>Lorem ipsum dolor</p>
 						<br />
 						<Link to='/galleri' className="btn">Läs mer..</Link>
 					</div>
-					<div>
-						<img className='brand' src={placeholder} alt='logo' />
-						<h3>Historia</h3>
-						<p>Lorem ipsum dolor</p>
-						<br />
-						<Link to='/historia' className="btn">Läs mer..</Link>
+				</div> */}
+				{/* <div className='home-brands row'>
+					<div className="col s12 m6 l4">
+						<div className="card">
+							<div className="card-image">
+								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
+								<span className="card-title">Bed and Brekfast</span>
+							</div>
+							<div className="card-content">
+								<p>Kom och upplev hergårdslivet här hos oss i Lögdö utanför Timrå.</p>
+								<br />
+								<Link to='/BaB' className="btn">Läs mer..</Link>
+							</div>
+						</div>
+					</div>
+					<div className="col s12 m6 l4">
+						<div className="card">
+							<div className="card-image">
+								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
+								<span className="card-title">Kafé</span>
+							</div>
+							<div className="card-content">
+								<p>Besök vårat helgkafé där du kan sitta i en helt unik miljö.</p>
+
+							</div>
+							<div class="card-action">
+								<Link to='/kafe' className="btn">Läs mer..</Link>
+							</div>
+						</div>
+					</div>
+					<div className="col s12 m6 l4">
+						<div className="card">
+							<div className="card-image">
+								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
+							</div>
+							<div className="card-content">
+								<span className="card-title">Keramik</span>
+								<p>Från kurser till hantverk i både keramik och träsniderier.</p>
+							</div>
+							<div class="card-action">
+								<Link to='/keramik' className="btn">Läs mer..</Link>
+							</div>
+						</div>
 					</div>
 				</div>
+				<div className='home-brands row'>
+					<div className="col s12 m6 l4">
+						<div className="card">
+							<div className="card-image">
+								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
+							</div>
+							<div className="card-content">
+								<span className="card-title">I närheten</span>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+							<div class="card-action">
+								<Link to='/aktiviteter' className="btn">Läs mer..</Link>
+							</div>
+						</div>
+					</div>
+					<div className="col s12 m6 l4">
+						<div className="card">
+							<div className="card-image">
+								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
+							</div>
+							<div className="card-content">
+								<span className="card-title">Galleri</span>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+							<div class="card-action">
+								<Link to='/galleri' className="btn">Läs mer..</Link>
+							</div>
+						</div>
+					</div>
+					<div className="col s12 m6 l4">
+						<div className="card">
+							<div className="card-image">
+								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
+							</div>
+							<div className="card-content">
+								<span className="card-title">Historia</span>
+								<p>Lorem ipsum dolor.</p>
+							</div>
+							<div class="card-action">
+								<Link to='/historia' className="btn">Läs mer..</Link>
+							</div>
+						</div>
+					</div> */}
 			</section>
 
 			<section className="hide">

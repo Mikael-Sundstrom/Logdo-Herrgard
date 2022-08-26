@@ -1,7 +1,7 @@
 const PriceTable = () => {
 	return (
-		<div>
-			<h2>Bed and Brekfast</h2>
+		<div style={{ maxWidth: '512px', margin: 'auto' }}>
+			<h2>Pristabell</h2>
 			<br />
 			<table>
 				<caption>Övernattning</caption>
