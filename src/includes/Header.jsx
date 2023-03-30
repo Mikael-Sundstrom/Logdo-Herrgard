@@ -12,8 +12,8 @@ const Header = (props) => {
 		M.Sidenav.init(document.getElementById('nav-mobile'), {
 			edge: 'right',
 			draggable: true,
-			inDuration: 150,
-			outDuration: 100,
+			inDuration: 200,
+			outDuration: 150,
 			onOpenStart: null,
 			onOpenEnd: null,
 			onCloseStart: null,
@@ -49,7 +49,7 @@ const Header = (props) => {
 				{nav}
 			</ul>
 		</header>
-	);
+	)
 }
 
 export default Header

@@ -1,18 +1,19 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
-import AnimateFadePage from '../includes/_AnimateFadePage';
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { EffectFade, Autoplay, Navigation } from 'swiper';
+import AnimateFadePage from '../includes/_AnimateFadePage'
+/* import { Swiper, SwiperSlide } from 'swiper/react'
+import { EffectFade, Autoplay, Navigation } from 'swiper' */
 
 import img1 from './../assets/images/start.jpg'
-import img3 from './../assets/images/q1.jpg'
-import placeholder from './../assets/images/placeholder-icon.jpg'
-import img_bab from './../assets/images/home/bab.jpg'
+/* import img3 from './../assets/images/q1.jpg' */
+/* import placeholder from './../assets/images/placeholder-icon.jpg' */
+import bab from './../assets/images/home/bab2.jpg'
+/* import img_bab from './../assets/images/home/bab.jpg' */
 import img_cafe from './../assets/images/home/cafe.jpg'
-import img_pottery from './../assets/images/home/pottery.jpg'
-import img_activity from './../assets/images/home/activities.jpg'
+/* import img_pottery from './../assets/images/home/pottery.jpg'
+import img_activity from './../assets/images/home/activities.jpg' */
 
-const slider = [img1, img3]
+/* const slider = [img1, img3] */
 
 const Home = () => {
 	return (
@@ -22,7 +23,7 @@ const Home = () => {
 			</section>
 
 			<section className='full-width-small'>
-				<Swiper
+				{/* <Swiper
 					modules={[Navigation, EffectFade, Autoplay]}
 					effect="fade"
 					autoplay={{
@@ -37,33 +38,36 @@ const Home = () => {
 						(img, index) =>
 							<SwiperSlide key={index}><img className='swiper-image' src={img} alt='img1' /></SwiperSlide>
 					)}
-				</Swiper>
+				</Swiper> */}
+				<img className='swiper-image' src={img1} alt='feature_img' />
+
 			</section>
 
 			<section>
 				<div className='home-brands row'>
-					<div className="col s12 m6">
-						<img className='brand' src={img_bab} alt='logo' />
+					<div className="col s12 m12 l6">
+						<img className='brand' src={bab} alt='logo' />
 						<h4>Bed and Brekfast</h4>
 						<p>Kom och upplev hergårdslivet här hos oss i Lögdö utanför Timrå.</p>
 						<br />
-						<Link to='/BaB' className="btn">Läs mer..</Link>
+						<Link to='/BaB' className="btn">Besök B&B</Link>
 					</div>
-					<div className="col s12 m6">
+					<div className="col s12 m12 l6">
 						<img className='brand' src={img_cafe} alt='logo' />
 						<h4>Kafé</h4>
 						<p>Besök vårat helgkafé där du kan sitta i en helt unik miljö.</p>
 						<br />
-						<Link to='/kafe' className="btn">Läs mer..</Link>
+						<Link to='/kafe' className="btn">Besök kafé</Link>
 					</div>
-					<div className="col s12 m6 l4">
+				</div>
+				{/* <div className="col s12 m12 l4">
 						<img className='brand' src={img_pottery} alt='logo' />
 						<h4>Keramik</h4>
 						<p>Från kurser till hantverk i både keramik och träsniderier.</p>
 						<br />
-						<Link to='/keramik' className="btn">Läs mer..</Link>
+						<Link to='/keramik' className="btn">Gå till keramik..</Link>
 					</div>
-				</div>
+				</div> */}
 				{/* <div className='home-brands row'>
 
 					<div className="col s12 m6 l4">
@@ -81,93 +85,6 @@ const Home = () => {
 						<Link to='/galleri' className="btn">Läs mer..</Link>
 					</div>
 				</div> */}
-				{/* <div className='home-brands row'>
-					<div className="col s12 m6 l4">
-						<div className="card">
-							<div className="card-image">
-								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
-								<span className="card-title">Bed and Brekfast</span>
-							</div>
-							<div className="card-content">
-								<p>Kom och upplev hergårdslivet här hos oss i Lögdö utanför Timrå.</p>
-								<br />
-								<Link to='/BaB' className="btn">Läs mer..</Link>
-							</div>
-						</div>
-					</div>
-					<div className="col s12 m6 l4">
-						<div className="card">
-							<div className="card-image">
-								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
-								<span className="card-title">Kafé</span>
-							</div>
-							<div className="card-content">
-								<p>Besök vårat helgkafé där du kan sitta i en helt unik miljö.</p>
-
-							</div>
-							<div class="card-action">
-								<Link to='/kafe' className="btn">Läs mer..</Link>
-							</div>
-						</div>
-					</div>
-					<div className="col s12 m6 l4">
-						<div className="card">
-							<div className="card-image">
-								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
-							</div>
-							<div className="card-content">
-								<span className="card-title">Keramik</span>
-								<p>Från kurser till hantverk i både keramik och träsniderier.</p>
-							</div>
-							<div class="card-action">
-								<Link to='/keramik' className="btn">Läs mer..</Link>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div className='home-brands row'>
-					<div className="col s12 m6 l4">
-						<div className="card">
-							<div className="card-image">
-								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
-							</div>
-							<div className="card-content">
-								<span className="card-title">I närheten</span>
-								<p>Lorem ipsum dolor.</p>
-							</div>
-							<div class="card-action">
-								<Link to='/aktiviteter' className="btn">Läs mer..</Link>
-							</div>
-						</div>
-					</div>
-					<div className="col s12 m6 l4">
-						<div className="card">
-							<div className="card-image">
-								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
-							</div>
-							<div className="card-content">
-								<span className="card-title">Galleri</span>
-								<p>Lorem ipsum dolor.</p>
-							</div>
-							<div class="card-action">
-								<Link to='/galleri' className="btn">Läs mer..</Link>
-							</div>
-						</div>
-					</div>
-					<div className="col s12 m6 l4">
-						<div className="card">
-							<div className="card-image">
-								<img className='brand' src='https://via.placeholder.com/600x300' alt='logo' />
-							</div>
-							<div className="card-content">
-								<span className="card-title">Historia</span>
-								<p>Lorem ipsum dolor.</p>
-							</div>
-							<div class="card-action">
-								<Link to='/historia' className="btn">Läs mer..</Link>
-							</div>
-						</div>
-					</div> */}
 			</section>
 
 			<section className="hide">
@@ -187,12 +104,12 @@ const Home = () => {
 						</div>
 
 						<div>
-							<h3 className='widget-title'>Övrigt</h3>
+							{/* <h3 className='widget-title'>Övrigt</h3>
 							<ul>
 								<li><Link to='/historia'>Historia</Link></li>
 								<li><Link to='/aktiviteter'>Området</Link></li>
 								<li><Link to='/galleri'>Galleri</Link></li>
-							</ul>
+							</ul> */}
 							<h3 className='widget-title'>Adress</h3>
 							<ul>
 								<li>Bruksvägen 27</li>
@@ -207,7 +124,7 @@ const Home = () => {
 				</div>
 			</footer>
 		</AnimateFadePage>
-	);
+	)
 }
 
 export default Home

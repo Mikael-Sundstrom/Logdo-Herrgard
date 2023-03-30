@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
-import { AnimatePresence } from 'framer-motion';
-import ScrollToTop from './includes/_ScrollToTop';
+import { AnimatePresence } from 'framer-motion'
+import ScrollToTop from './includes/_ScrollToTop'
 
 // Pages
 import Home from './pages/Home'
@@ -8,9 +8,9 @@ import History from './pages/History'
 import Gallery from './pages/Gallery'
 import Activities from './pages/Activities'
 import BaB from './pages/BaB/BaB'
-import Cafe from './pages/Cafe';
+import Cafe from './pages/Cafe'
 import Error404 from './pages/Error404'
-import Pottery from './pages/Pottery';
+import Pottery from './pages/Pottery'
 
 // Components
 import Header from './includes/Header'
@@ -24,22 +24,7 @@ const routes = [
 		component: <Home />,
 		"class": "show"
 	}, {
-		name: "Historia",
-		path: "historia",
-		component: <History />,
-		"class": "hide"
-	}, {
-		name: "Galleri",
-		path: "galleri",
-		component: <Gallery />,
-		"class": "hide"
-	}, {
-		name: "Aktiviter i området",
-		path: "aktiviteter",
-		component: <Activities />,
-		"class": "hide"
-	}, {
-		name: "B & B",
+		name: "Bed & Brekfast",
 		path: "BaB",
 		component: <BaB />,
 		"class": "show"
@@ -52,6 +37,21 @@ const routes = [
 		name: "Keramik",
 		path: "keramik",
 		component: <Pottery />,
+		"class": "hide"
+	}, {
+		name: "Galleri",
+		path: "galleri",
+		component: <Gallery />,
+		"class": "hide"
+	}, {
+		name: "Aktiviter i området",
+		path: "aktiviteter",
+		component: <Activities />,
+		"class": "show"
+	}, {
+		name: "Historia",
+		path: "historia",
+		component: <History />,
 		"class": "show"
 	}
 ]
@@ -80,7 +80,7 @@ const App = () => {
 
 			<Footer />
 		</>
-	);
+	)
 }
 
-export default App;
+export default App

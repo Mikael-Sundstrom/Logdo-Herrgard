@@ -1,7 +1,7 @@
 // Core
-import AnimateFadePage from '../includes/_AnimateFadePage';
-import M from 'materialize-css/dist/js/materialize.min.js';
-import { useEffect } from 'react';
+import AnimateFadePage from '../includes/_AnimateFadePage'
+import M from 'materialize-css/dist/js/materialize.min.js'
+import { useEffect } from 'react'
 
 // Images
 import gabbyBosse from './../assets/images/kafe/gabby-och-bosse.jpg'
@@ -37,18 +37,20 @@ const Cafe = () => {
 					Vi startar upp med sommar café midsommar söndagen och därefter varje helg 11-15, varmt välkomna.
 					För att boka rum eller har andra funderingar så är vårt telefonnummer 072-2303337. Dela gärna vidare då vi för närvarande använder bara den här kanalen😁</p>
 			</section>
-			<section>
-				<h3 className='center'>Våra smörgåsar</h3>
-				<div id='sandwiches' className="carousel">
-					<a className="carousel-item" href="#one!"><img alt='' src={macka1} /></a>
-					<a className="carousel-item" href="#two!"><img alt='' src={macka2} /></a>
-					<a className="carousel-item" href="#three!"><img alt='' src={macka3} /></a>
-					<a className="carousel-item" href="#four!"><img alt='' src={macka4} /></a>
-					<a className="carousel-item" href="#five!"><img alt='' src={macka5} /></a>
+			<section className='row'>
+				<div className='col s12'>
+					<h3 className='center'>Våra smörgåsar</h3>
+					<div id='sandwiches' className="carousel">
+						<a className="carousel-item" href="#one!"><img alt='' src={macka1} /></a>
+						<a className="carousel-item" href="#two!"><img alt='' src={macka2} /></a>
+						<a className="carousel-item" href="#three!"><img alt='' src={macka3} /></a>
+						<a className="carousel-item" href="#four!"><img alt='' src={macka4} /></a>
+						<a className="carousel-item" href="#five!"><img alt='' src={macka5} /></a>
+					</div>
 				</div>
 			</section>
 		</AnimateFadePage>
-	);
+	)
 }
 
 export default Cafe
