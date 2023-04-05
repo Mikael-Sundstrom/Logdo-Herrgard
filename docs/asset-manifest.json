@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/logdo-herrgard/static/css/main.16c6e3dc.css",
-    "main.js": "/logdo-herrgard/static/js/main.8a578dc8.js",
+    "main.css": "/logdo-herrgard/static/css/main.c12093fa.css",
+    "main.js": "/logdo-herrgard/static/js/main.e288be87.js",
     "static/js/787.2d04492b.chunk.js": "/logdo-herrgard/static/js/787.2d04492b.chunk.js",
     "static/media/lada.png": "/logdo-herrgard/static/media/lada.a0cb8f27c20d5ad1de95.png",
     "static/media/dubbelrum-1.jpg": "/logdo-herrgard/static/media/dubbelrum-1.895ce5c35c8685da6070.jpg",
@@ -19,12 +19,12 @@
     "static/media/logo.jpg": "/logdo-herrgard/static/media/logo.b6a6c8c121aa67c40ce4.jpg",
     "static/media/gabby-och-bosse.jpg": "/logdo-herrgard/static/media/gabby-och-bosse.694480a21b7ecbdbe65c.jpg",
     "index.html": "/logdo-herrgard/index.html",
-    "main.16c6e3dc.css.map": "/logdo-herrgard/static/css/main.16c6e3dc.css.map",
-    "main.8a578dc8.js.map": "/logdo-herrgard/static/js/main.8a578dc8.js.map",
+    "main.c12093fa.css.map": "/logdo-herrgard/static/css/main.c12093fa.css.map",
+    "main.e288be87.js.map": "/logdo-herrgard/static/js/main.e288be87.js.map",
     "787.2d04492b.chunk.js.map": "/logdo-herrgard/static/js/787.2d04492b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16c6e3dc.css",
-    "static/js/main.8a578dc8.js"
+    "static/css/main.c12093fa.css",
+    "static/js/main.e288be87.js"
   ]
 }

@@ -6,7 +6,7 @@
 		"**/setupTests.js": true,
 		"**/.env": true,
 		"**/docs": true,
-		"**/public": true,
+		"**/public": false,
 		"**/*test.js": true,
 		"**/.vscode": false,
 		"**/node_modules": true,

@@ -29,17 +29,15 @@ const Cafe = () => {
 
 	return (
 		<AnimateFadePage>
-			<section>
-				<h2>Kafé</h2>
-				<img className='history-image-one' alt='Gabby och Bosse' src={gabbyBosse} />
-				<p>Vi vill passa på att presentera oss då delmål 1 börjar att bli klart.
-					Gabbi och Bosse heter vi som har äran att få driva B&B och sommar café på Lögdö Herrgård.
-					Vi startar upp med sommar café midsommar söndagen och därefter varje helg 11-15, varmt välkomna.
-					För att boka rum eller har andra funderingar så är vårt telefonnummer 072-2303337. Dela gärna vidare då vi för närvarande använder bara den här kanalen😁</p>
-			</section>
 			<section className='row'>
 				<div className='col s12'>
-					<h3 className='center'>Våra smörgåsar</h3>
+					<h3 className='center'>Kafé</h3>
+					<p>
+						Öppet från midsommar, lördagar och söndagar kl. 11-15 fram till 6 augusti.
+						Kakor, bullar, cheesecake mm, vi har även smörgåsar som tex räksmörgås, leverpastej och Ceasar smörgås med kyckling, även ett vegetariskt alt.
+						Glass och kalla drycker
+					</p>
+					<a href='mailto:logdoherrgard@icloud.com?subject=Boka' className='btn waves-effect'>Boka kaféet<i className="material-icons left">mail</i></a>
 					<div id='sandwiches' className="carousel">
 						<a className="carousel-item" href="#one!"><img alt='' src={macka1} /></a>
 						<a className="carousel-item" href="#two!"><img alt='' src={macka2} /></a>
@@ -48,6 +46,16 @@ const Cafe = () => {
 						<a className="carousel-item" href="#five!"><img alt='' src={macka5} /></a>
 					</div>
 				</div>
+			</section>
+			<section>
+				<h4>Om oss</h4>
+				<img className='history-image-one' alt='Gabby och Bosse' src={gabbyBosse} />
+				<p>
+					Vi vill passa på att presentera oss då delmål 1 börjar att bli klart.
+					Gabbi och Bosse heter vi som har äran att få driva B&B och sommar café på Lögdö Herrgård.
+					Vi startar upp med sommar café midsommar söndagen och därefter varje helg 11-15, varmt välkomna.
+					För att boka rum eller har andra funderingar så är vårt telefonnummer 072-2303337. Dela gärna vidare då vi för närvarande använder bara den här kanalen😁
+				</p>
 			</section>
 		</AnimateFadePage>
 	)

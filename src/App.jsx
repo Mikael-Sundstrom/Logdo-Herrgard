@@ -8,6 +8,7 @@ import History from './pages/History'
 import Gallery from './pages/Gallery'
 import Activities from './pages/Activities'
 import BaB from './pages/BaB/BaB'
+import Hostel from './pages/Hostel'
 import Cafe from './pages/Cafe'
 import Error404 from './pages/Error404'
 import Pottery from './pages/Pottery'
@@ -22,11 +23,16 @@ const routes = [
 		name: "Hem",
 		path: "logdo-herrgard",
 		component: <Home />,
-		"class": "show"
+		"class": "hide"
 	}, {
 		name: "Bed & Brekfast",
 		path: "BaB",
 		component: <BaB />,
+		"class": "show"
+	}, {
+		name: "Vandrarhem",
+		path: "vandrarhem",
+		component: <Hostel />,
 		"class": "show"
 	}, {
 		name: "Kafé",
