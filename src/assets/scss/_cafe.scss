@@ -1,0 +1,37 @@
+/* All sizes */
+#cafe-page {
+	section.one {
+		img.bosse-gabby {
+			margin-bottom: 16px;
+			width: 100%;
+			margin-right: 32px;
+		}
+		.first-title,
+		.first-paragraph {
+			margin-top: 0;
+		}
+	}
+	section.two {
+		.example img {
+			width: 128px;
+		}
+	}
+}
+/* Only for computers */
+@media only screen and (min-width: 1065px) {
+	/* #cafe-page {
+	} */
+}
+
+/* Phones and tablets */
+@media only screen and (max-width: 1064px) {
+	#cafe-page {
+		section.one {
+			img.bosse-gabby {
+				margin-bottom: 16px;
+				max-width: 100%;
+				margin-right: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+/* All sizes */
+#bab-page {
+	.card {
+		&.horizontal {
+			.card-image {
+				max-width: 44%;
+			}
+			.card-content {
+				.card-title {
+					font-size: 1.5em;
+					i {
+						margin: 0;
+					}
+				}
+			}
+			.card-reveal {
+				margin-left: 44%;
+				max-width: 56%;
+			}
+		}
+	}
+
+	.bigger-text {
+		font-size: large;
+	}
+}
+/* Only for computers */
+@media only screen and (min-width: 1065px) {
+}
+
+/* Phones and tablets */
+@media only screen and (max-width: 1064px) {
+}

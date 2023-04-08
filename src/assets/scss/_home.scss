@@ -1,0 +1,41 @@
+#home-page {
+	section {
+		div.home-brands {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+
+			div {
+				display: flex;
+				flex-direction: column;
+				min-width: 267px;
+				align-items: center;
+				margin: 32px 0;
+				text-align: center;
+
+				.brand {
+					width: 100px;
+				}
+			}
+		}
+		.feature-image {
+			width: 100%;
+		}
+	}
+}
+
+/* Phones and tablets */
+@media only screen and (max-width: 1064px) {
+	#home-page {
+		section {
+			&.full-width-small {
+				margin: 0;
+				margin-bottom: 32px;
+			}
+
+			div.home-brands {
+				flex-direction: column;
+			}
+		}
+	}
+}

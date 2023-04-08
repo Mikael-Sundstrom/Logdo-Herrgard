@@ -7,7 +7,7 @@ import Home from './pages/Home'
 import History from './pages/History'
 import Gallery from './pages/Gallery'
 import Activities from './pages/Activities'
-import BaB from './pages/BaB/BaB'
+import BaB from './pages/BaB'
 import Hostel from './pages/Hostel'
 import Cafe from './pages/Cafe'
 import Error404 from './pages/Error404'
@@ -30,14 +30,14 @@ const routes = [
 		component: <BaB />,
 		"class": "show"
 	}, {
-		name: "Vandrarhem",
-		path: "vandrarhem",
-		component: <Hostel />,
-		"class": "show"
-	}, {
 		name: "Kafé",
 		path: "kafe",
 		component: <Cafe />,
+		"class": "show"
+	}, {
+		name: "Vandrarhem",
+		path: "vandrarhem",
+		component: <Hostel />,
 		"class": "show"
 	}, {
 		name: "Keramik",
