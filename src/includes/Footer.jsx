@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom"
+/* import { Link } from "react-router-dom" */
 
 const Footer = () => {
 	return (
 		<aside>
-			<div className='footer hide'>
+			{/* <div className='footer hide'>
 				<div>
 
 					<div>
@@ -29,10 +29,10 @@ const Footer = () => {
 						<a href='https://www.google.com/maps/place/L%C3%B6gd%C3%B6+Bruk/@62.557407,17.383419,12z/data=!4m5!3m4!1s0x0:0x6bc2d023e0afb519!8m2!3d62.5576457!4d17.3841999?hl=sv' target='_blank' rel="noreferrer" className='btn'>Google Maps</a>
 					</div>
 				</div>
-			</div>
+			</div> */}
 			<div id="meta">
 				<div>
-					<span>&copy; 2022 Lögdö Herrgård</span>
+					<span>&copy; 2023 Lögdö Herrgård</span>
 					<span className='do-not-remove'>Skapad av <a href="https://github.com/Mikael-Sundstrom">Mikael Sundström</a></span>
 				</div>
 			</div>

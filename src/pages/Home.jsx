@@ -37,12 +37,6 @@ const Home = () => {
 					</div>
 				</section>
 
-				<section className="hide">
-					<p>Björn Schumacher och Mattias Rustan äger Lögdö Herrgård. Byggnaden fungerar som privat boende, Bed and Brekfast och festlokal året om. På sommaren har de även cafe där du kan sitta i en unik miljö.</p>
-					<p>På Herrgården finns 8 sängplatser som är fördelade med 1 enkelrum 2 dubbelrum och 1 trebäddsrum. Ca 60 sittplatser i fördelat på två rum. Herrgårdens stolta snickartraditioner finns ännu bevarade och skapar en välkomnande atmosfär. De ljus och luftiga salongerna är stilfullt möblerade. Kristallkronorna och de vackra kakelugnarna förstärker den genuina miljön. Rummen är inreda i gammal stil och förstärka den miljön som det en gång har varit.</p>
-					<p>Anläggningen uthyres till enskilda såväl som föreningar eller företag. Här håls även helgkurser i olika konst och hantverkskurser.</p>
-				</section>
-
 				<footer>
 					<div className='footer'>
 						<div>

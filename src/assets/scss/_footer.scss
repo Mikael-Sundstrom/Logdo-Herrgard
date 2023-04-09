@@ -2,6 +2,7 @@ footer,
 aside {
 	display: flex;
 	flex-direction: column;
+	background: #fafafa;
 
 	div.footer {
 		display: flex;
@@ -51,6 +52,7 @@ aside {
 		display: flex;
 		justify-content: center;
 		border-top: 1px #ddd solid;
+		background: #fff;
 
 		> div {
 			display: flex;

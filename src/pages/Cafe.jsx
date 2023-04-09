@@ -38,7 +38,40 @@ const Cafe = () => {
 			numVisible: 5,
 			fullWidth: false,
 			indicators: false,
-			noWrap: false,
+			noWrap: true,
+			onCycleTo: null
+		})
+		M.Carousel.init(document.getElementById('cookies'), {
+			duration: 200,
+			dist: -100,
+			shift: 10,
+			padding: 0,
+			numVisible: 5,
+			fullWidth: false,
+			indicators: false,
+			noWrap: true,
+			onCycleTo: null
+		})
+		M.Carousel.init(document.getElementById('food'), {
+			duration: 200,
+			dist: -100,
+			shift: 10,
+			padding: 0,
+			numVisible: 5,
+			fullWidth: false,
+			indicators: false,
+			noWrap: true,
+			onCycleTo: null
+		})
+		M.Carousel.init(document.getElementById('order'), {
+			duration: 200,
+			dist: -100,
+			shift: 10,
+			padding: 0,
+			numVisible: 5,
+			fullWidth: false,
+			indicators: false,
+			noWrap: true,
 			onCycleTo: null
 		})
 	})
@@ -49,7 +82,7 @@ const Cafe = () => {
 				<section className='section one'>
 					<div className="row">
 						<div className='col s12'>
-							<h3 className='center'>Kafé</h3>
+							<h2 className='center'>Kafé</h2>
 							<br />
 						</div>
 						<div className="col s12 m4 l3">
@@ -83,19 +116,30 @@ const Cafe = () => {
 				<section className='section two'>
 					<div className="row">
 						<div className="col s12">
-							<div className='example'>
-								<img alt='' src={kakor1} />
-								<img alt='' src={kakor2} />
-								<img alt='' src={kakor3} />
-								<img alt='' src={kakor4} />
-								<img alt='' src={kakor5} />
-								<img alt='' src={mat1} />
-								<img alt='' src={mat2} />
-								<img alt='' src={mat3} />
-								<img alt='' src={mat4} />
-								<img alt='' src={smorgardstarta1} />
-								<img alt='' src={smorgardstarta2} />
+							<h3>Meny</h3>
+						</div>
+						<div className="col s12 m6">
+							<h4>Huvudrätter</h4>
+							<div id='food' className="carousel">
+								<a className="carousel-item" href="#cookie1!"><img alt='' src={mat1} /></a>
+								<a className="carousel-item" href="#cookie2!"><img alt='' src={mat2} /></a>
+								<a className="carousel-item" href="#cookie3!"><img alt='' src={mat3} /></a>
+								<a className="carousel-item" href="#cookie4!"><img alt='' src={mat4} /></a>
 							</div>
+						</div>
+						<div className="col s12 m6">
+							<h4>Efterrätter</h4>
+							<div id='cookies' className="carousel">
+								<a className="carousel-item" href="#cookie1!"><img alt='' src={kakor1} /></a>
+								<a className="carousel-item" href="#cookie2!"><img alt='' src={kakor2} /></a>
+								<a className="carousel-item" href="#cookie3!"><img alt='' src={kakor3} /></a>
+								<a className="carousel-item" href="#cookie4!"><img alt='' src={kakor4} /></a>
+								<a className="carousel-item" href="#cookie6!"><img alt='' src={kakor5} /></a>
+							</div>
+						</div>
+						<div className='section hide-on-small-only'><br /><br /></div>
+						<div className="col s12 m6">
+							<h4>Lantliga smörgåsar</h4>
 							<div id='sandwiches' className="carousel">
 								<a className="carousel-item" href="#one!"><img alt='' src={mackor} /></a>
 								<a className="carousel-item" href="#two!"><img alt='' src={macka1} /></a>
@@ -103,6 +147,13 @@ const Cafe = () => {
 								<a className="carousel-item" href="#four!"><img alt='' src={macka3} /></a>
 								<a className="carousel-item" href="#five!"><img alt='' src={macka4} /></a>
 								<a className="carousel-item" href="#six!"><img alt='' src={macka5} /></a>
+							</div>
+						</div>
+						<div className="col s12 m6">
+							<h4>På beställning</h4>
+							<div id='order' className="carousel">
+								<a className="carousel-item" href="#one!"><img alt='' src={smorgardstarta1} /></a>
+								<a className="carousel-item" href="#two!"><img alt='' src={smorgardstarta2} /></a>
 							</div>
 						</div>
 					</div>

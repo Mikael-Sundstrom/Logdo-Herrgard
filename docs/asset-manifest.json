@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/logdo-herrgard/static/css/main.6b09beb5.css",
-    "main.js": "/logdo-herrgard/static/js/main.15bd4e9b.js",
+    "main.css": "/logdo-herrgard/static/css/main.eeafb330.css",
+    "main.js": "/logdo-herrgard/static/js/main.d49764e8.js",
     "static/js/787.2d04492b.chunk.js": "/logdo-herrgard/static/js/787.2d04492b.chunk.js",
     "static/media/lada.png": "/logdo-herrgard/static/media/lada.a0cb8f27c20d5ad1de95.png",
     "static/media/dubbelrum-1.jpg": "/logdo-herrgard/static/media/dubbelrum-1.895ce5c35c8685da6070.jpg",
@@ -27,15 +27,17 @@
     "static/media/optimized-macka-5.jpg": "/logdo-herrgard/static/media/optimized-macka-5.22cced227bec21e84d15.jpg",
     "static/media/optimized-macka-4.jpg": "/logdo-herrgard/static/media/optimized-macka-4.d7b6ed3c5e16eecd039b.jpg",
     "static/media/logo.jpg": "/logdo-herrgard/static/media/logo.b6a6c8c121aa67c40ce4.jpg",
+    "static/media/optimized-kanot.jpg": "/logdo-herrgard/static/media/optimized-kanot.9c5f97b930a6298ac6dd.jpg",
     "static/media/gabby-och-bosse.jpg": "/logdo-herrgard/static/media/gabby-och-bosse.694480a21b7ecbdbe65c.jpg",
     "static/media/optimized-macka-1.jpg": "/logdo-herrgard/static/media/optimized-macka-1.849b5acf75ad99b95e6f.jpg",
+    "static/media/optimized-ljustorpsan-mjallan.jpg": "/logdo-herrgard/static/media/optimized-ljustorpsan-mjallan.067e4ac67342ec8c8984.jpg",
     "index.html": "/logdo-herrgard/index.html",
-    "main.6b09beb5.css.map": "/logdo-herrgard/static/css/main.6b09beb5.css.map",
-    "main.15bd4e9b.js.map": "/logdo-herrgard/static/js/main.15bd4e9b.js.map",
+    "main.eeafb330.css.map": "/logdo-herrgard/static/css/main.eeafb330.css.map",
+    "main.d49764e8.js.map": "/logdo-herrgard/static/js/main.d49764e8.js.map",
     "787.2d04492b.chunk.js.map": "/logdo-herrgard/static/js/787.2d04492b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b09beb5.css",
-    "static/js/main.15bd4e9b.js"
+    "static/css/main.eeafb330.css",
+    "static/js/main.d49764e8.js"
   ]
 }
