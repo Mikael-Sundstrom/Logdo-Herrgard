@@ -1,12 +1,19 @@
 {
   "files": {
     "main.css": "/logdo-herrgard/static/css/main.eeafb330.css",
-    "main.js": "/logdo-herrgard/static/js/main.d49764e8.js",
+    "main.js": "/logdo-herrgard/static/js/main.8f3b80e4.js",
     "static/js/787.2d04492b.chunk.js": "/logdo-herrgard/static/js/787.2d04492b.chunk.js",
+    "static/media/toalett-med-dusch-plan2.jpg": "/logdo-herrgard/static/media/toalett-med-dusch-plan2.36661cd9f6c3d2f5823f.jpg",
+    "static/media/dubbelrum-3.jpg": "/logdo-herrgard/static/media/dubbelrum-3.9f0de3877d407b2b9c9c.jpg",
+    "static/media/dubbelrum-1.jpg": "/logdo-herrgard/static/media/dubbelrum-1.5ff3551bfe6842a5392e.jpg",
+    "static/media/bibliotek.jpg": "/logdo-herrgard/static/media/bibliotek.ec08e44cf18b46c8c17b.jpg",
+    "static/media/foaje-2.jpg": "/logdo-herrgard/static/media/foaje-2.e3f8dc1052f05aa499d4.jpg",
+    "static/media/dubbelrum-2.jpg": "/logdo-herrgard/static/media/dubbelrum-2.76197a3b71294ee387eb.jpg",
+    "static/media/toalett-plan2.jpg": "/logdo-herrgard/static/media/toalett-plan2.497ba8a4de49aeb831d3.jpg",
+    "static/media/foaje-1.jpg": "/logdo-herrgard/static/media/foaje-1.bdb7ad51faadfdefa36e.jpg",
     "static/media/lada.png": "/logdo-herrgard/static/media/lada.a0cb8f27c20d5ad1de95.png",
-    "static/media/dubbelrum-1.jpg": "/logdo-herrgard/static/media/dubbelrum-1.895ce5c35c8685da6070.jpg",
     "static/media/enkelrum-1.jpg": "/logdo-herrgard/static/media/enkelrum-1.f4d9a36479dc936f42b4.jpg",
-    "static/media/dubbelrum-2.jpg": "/logdo-herrgard/static/media/dubbelrum-2.2f4aa8ad0a93ac5a5eb1.jpg",
+    "static/media/foaje-3.jpg": "/logdo-herrgard/static/media/foaje-3.caff64f4797f4c9e97a7.jpg",
     "static/media/optimized-kakor-2.jpg": "/logdo-herrgard/static/media/optimized-kakor-2.57dcd80f86b7fb979071.jpg",
     "static/media/optimized-smorgardstarta-bestalla-1.jpg": "/logdo-herrgard/static/media/optimized-smorgardstarta-bestalla-1.d78d9bd7cbd1dbc10490.jpg",
     "static/media/optimized-kakor-5.jpg": "/logdo-herrgard/static/media/optimized-kakor-5.39b618c344041330e85c.jpg",
@@ -33,11 +40,11 @@
     "static/media/optimized-ljustorpsan-mjallan.jpg": "/logdo-herrgard/static/media/optimized-ljustorpsan-mjallan.067e4ac67342ec8c8984.jpg",
     "index.html": "/logdo-herrgard/index.html",
     "main.eeafb330.css.map": "/logdo-herrgard/static/css/main.eeafb330.css.map",
-    "main.d49764e8.js.map": "/logdo-herrgard/static/js/main.d49764e8.js.map",
+    "main.8f3b80e4.js.map": "/logdo-herrgard/static/js/main.8f3b80e4.js.map",
     "787.2d04492b.chunk.js.map": "/logdo-herrgard/static/js/787.2d04492b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eeafb330.css",
-    "static/js/main.d49764e8.js"
+    "static/js/main.8f3b80e4.js"
   ]
 }

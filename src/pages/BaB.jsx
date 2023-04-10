@@ -5,8 +5,14 @@ import { useEffect } from 'react'
 
 import dubbelrum1 from './../assets/images/bab/dubbelrum-1.jpg'
 import dubbelrum2 from './../assets/images/bab/dubbelrum-2.jpg'
+import dubbelrum3 from './../assets/images/bab/dubbelrum-3.jpg'
 import enkelrum1 from './../assets/images/bab/enkelrum-1.jpg'
-/* import hallUppe from './../assets/images/bab/hall-uppe.jpg' */
+import foaje1 from './../assets/images/bab/foaje-1.jpg'
+import foaje2 from './../assets/images/bab/foaje-2.jpg'
+import foaje3 from './../assets/images/bab/foaje-3.jpg'
+import bibliotek from './../assets/images/bab/bibliotek.jpg'
+import toalettPlan2 from './../assets/images/bab/toalett-plan2.jpg'
+import toalettMedDuschPlan2 from './../assets/images/bab/toalett-med-dusch-plan2.jpg'
 
 
 // Component
@@ -59,33 +65,13 @@ const BaB = () => {
 								<div className="card-stacked">
 									<div className="card-content">
 										<span className='card-title truncate activator'>Höken<i className="material-icons right">more_vert</i></span>
-										<p>Ett dubbelrum i gammal stil. Du får återuppleva den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
+										<p>Ett trebäddsrum i gammal stil. Du får återuppleva den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
 									</div>
 								</div>
 								<div className="card-reveal">
 									<span className="card-title grey-text text-darken-4">Höken<i className="material-icons right">close</i></span>
 									<ul>
 										<li>995:-/natt</li>
-										<li>75:-/frukost</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div className="col s12 m10 offset-m1 l6">
-							<div className="card horizontal">
-								<div className="card-image">
-									<img alt='' src={enkelrum1} className='materialboxed' />
-								</div>
-								<div className="card-stacked">
-									<div className="card-content">
-										<span className='card-title truncate activator'>Skvadern<i className="material-icons right">more_vert</i></span>
-										<p>Ett dubbelrum i gammal stil. Du får återuppleva den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
-									</div>
-								</div>
-								<div className="card-reveal">
-									<span className="card-title grey-text text-darken-4">Skvadern<i className="material-icons right">close</i></span>
-									<ul>
-										<li>695:-/natt</li>
 										<li>75:-/frukost</li>
 									</ul>
 								</div>
@@ -130,11 +116,64 @@ const BaB = () => {
 										<img alt='' src={hallUppe} className='materialboxed' />
 										<span className='card-title'>Foajé</span>
 									</div>
-									<div className='card-content'>
+									<div className='card-content'>calc(33% - 16px)
 										Ett dubbelrum i gammal stil. Du får återuppleva den gammaldagsa stilen som vi tidigare hade i Sverige.
 									</div>
 								</div>
 							</div> */}
+					</div>
+					<div className="row">
+						<div className="col s12 m10 offset-m1 l6">
+							<div className="card horizontal">
+								<div className="card-image">
+									<img alt='' src={dubbelrum3} className='materialboxed' />
+								</div>
+								<div className="card-stacked">
+									<div className="card-content">
+										<span className='card-title truncate activator'>Örnen<i className="material-icons right">more_vert</i></span>
+										<p>Ett dubbelrum i gammal stil. Du får återuppleva den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
+									</div>
+								</div>
+								<div className="card-reveal">
+									<span className="card-title grey-text text-darken-4">Örnen<i className="material-icons right">close</i></span>
+									<ul>
+										<li>695:-/natt</li>
+										<li>75:-/frukost</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div className="col s12 m10 offset-m1 l6">
+							<div className="card horizontal">
+								<div className="card-image">
+									<img alt='' src={enkelrum1} className='materialboxed' />
+								</div>
+								<div className="card-stacked">
+									<div className="card-content">
+										<span className='card-title truncate activator'>Skvadern<i className="material-icons right">more_vert</i></span>
+										<p>Ett enkelrum i gammal stil. Du får återuppleva den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
+									</div>
+								</div>
+								<div className="card-reveal">
+									<span className="card-title grey-text text-darken-4">Skvadern<i className="material-icons right">close</i></span>
+									<ul>
+										<li>695:-/natt</li>
+										<li>75:-/frukost</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col s12">
+							<br />
+							<img src={foaje1} alt="" style={{ marginRight: '8px', width: 'calc(33% - 5px)' }} />
+							<img src={foaje2} alt="" style={{ marginRight: '8px', width: 'calc(33% - 5px)' }} />
+							<img src={foaje3} alt="" style={{ marginRight: '0px', width: 'calc(33% - 5px)' }} />
+							<img src={bibliotek} alt="" style={{ marginRight: '8px', width: 'calc(33% - 5px)' }} />
+							<img src={toalettPlan2} alt="" style={{ marginRight: '8px', width: 'calc(33% - 5px)' }} />
+							<img src={toalettMedDuschPlan2} alt="" style={{ marginRight: '0px', width: 'calc(33% - 5px)' }} />
+						</div>
 					</div>
 				</section>
 				<section>
