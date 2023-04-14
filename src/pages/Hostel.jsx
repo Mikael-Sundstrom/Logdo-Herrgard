@@ -27,7 +27,7 @@ const Hostel = () => {
 								toalett med dusch och tvättmaskin, samt torktumlare.
 							</p>
 						</div>
-						<div className="col s12">
+						<div className="col s12 center-align">
 							<h3>Pristabell</h3>
 							<table>
 								<caption>Prisinformation</caption>
@@ -52,9 +52,10 @@ const Hostel = () => {
 									</tr>
 								</tbody>
 							</table>
-							<p className="flow-text">
-								<a href='mailto:logdoherrgard@icloud.com?subject=Boka' className='waves-effect waves-light btn center'>Klicka här för att boka <i className="material-icons left">mail</i></a>
-							</p>
+							<br />
+							<br />
+							<br />
+							<a href='mailto:logdoherrgard@icloud.com?subject=Boka' className='waves-effect waves-light btn center'>Mejla för att boka <i className="material-icons left">mail</i></a>
 						</div>
 					</div>
 				</section>

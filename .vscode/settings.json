@@ -1,7 +1,7 @@
 {
 	"files.exclude": {
 		"**/.gitignore": true,
-		"**/README.md": true,
+		"**/README.md": false,
 		"**/reportWebVitals.js": true,
 		"**/setupTests.js": true,
 		"**/.env": true,

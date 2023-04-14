@@ -18,21 +18,59 @@ const Home = () => {
 					<img className='feature-image' src={img1} alt='feature_img' />
 				</section>
 
-				<section>
-					<div className='home-brands row'>
-						<div className="col s12 m12 l6">
-							<img className='brand' src={bab} alt='logo' />
-							<h4>Bed and Brekfast</h4>
-							<p>Kom och upplev hergårdslivet här hos oss i Lögdö utanför Timrå.</p>
-							<br />
-							<Link to='/BaB' className="btn">Besök B&B</Link>
+				<section className="section one">
+					<div className='row'>
+						<div className="col s12 m6 l3">
+							<div className="card z-depth-0">
+								<div className="card-image">
+									<img className='center-align' src={bab} alt='logo' />
+								</div>
+								<div className="card-content center-align">
+									<span className="card-title">Bed and Brekfast</span>
+									<p>Kom och upplev hergårdslivet här hos oss i Lögdö utanför Timrå.</p>
+									<br />
+									<Link to='/BaB' className="btn ">Besök B&B</Link>
+								</div>
+							</div>
 						</div>
-						<div className="col s12 m12 l6">
-							<img className='brand' src={img_cafe} alt='logo' />
-							<h4>Kafé</h4>
-							<p>Besök vårat helgkafé där du kan sitta i en helt unik miljö.</p>
-							<br />
-							<Link to='/kafe' className="btn">Besök kafé</Link>
+						<div className="col s12 m6 l3">
+							<div className="card z-depth-0">
+								<div className="card-image">
+									<img src={img_cafe} alt='logo' />
+								</div>
+								<div className="card-content center-align">
+									<span className="card-title">Kafé</span>
+									<p>Besök vårat helgkafé där du kan sitta i en helt unik miljö.</p>
+									<br />
+									<Link to='/kafe' className="btn">Besök kafé</Link>
+								</div>
+							</div>
+						</div>
+						<div className="col s12 m6 l3">
+							<div className="card z-depth-0">
+								<div className="card-image">
+									<img src={img_cafe} alt='logo' />
+								</div>
+								<div className="card-content center-align">
+									<span className="card-title center-align">Vandrarhem</span>
+									<p>Besök vårat helgkafé där du kan sitta i en helt unik miljö.</p>
+									<br />
+									<Link to='/vandrarhem' className="btn">Besök kafé</Link>
+								</div>
+							</div>
+						</div>
+						<div className="col s12 m6 l3">
+							<div className="card z-depth-0">
+								<div className="card-image">
+									<img src={img_cafe} alt='logo' />
+								</div>
+								<div className="card-content center-align">
+									<span className="card-title">Lokaler</span>
+									<p>Skapa en speciell händelse i våra vackra salonger.</p>
+									<br />
+									<Link to='/lokal' className="btn">Besök lokaler</Link>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -54,7 +92,7 @@ const Home = () => {
 									<li>072-230 33 37</li>
 									<li>logdoherrgard@icloud.com</li>
 								</ul>
-								<a href='https://www.google.com/maps/place/L%C3%B6gd%C3%B6+Bruk/@62.557407,17.383419,12z/data=!4m5!3m4!1s0x0:0x6bc2d023e0afb519!8m2!3d62.5576457!4d17.3841999?hl=sv' target='_blank' rel="noreferrer" className='btn'>Google Maps</a>
+								<a href='https://goo.gl/maps/sQ267xUnx9jtPDY27' target='_blank' rel="noreferrer" className='waves-effect btn center'><i class="material-icons left">location_on</i>Google Maps</a>
 							</div>
 						</div>
 					</div>

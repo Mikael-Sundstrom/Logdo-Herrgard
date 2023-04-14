@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Source kritic
+https://www.spreadshirt.se/shop/design/bed+and+breakfast+maltider+boende+vandrarhem+klistermaerke-D60f5270445be9404e8b67a59?sellable=5aag9OXJAjuw3aYo3mNx-1459-215

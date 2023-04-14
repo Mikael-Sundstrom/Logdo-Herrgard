@@ -16,8 +16,10 @@ import Pottery from './pages/Pottery'
 // Components
 import Header from './includes/Header'
 import Footer from './includes/Footer'
+import Place from './pages/Place'
 
 // Routes
+// https://materializecss.com/helpers.html#hiding
 const routes = [
 	{
 		name: "Hem",
@@ -40,15 +42,20 @@ const routes = [
 		component: <Hostel />,
 		"class": "show"
 	}, {
+		name: "Lokaler",
+		path: "lokal",
+		component: <Place />,
+		"class": "show"
+	}, {
 		name: "Keramik",
 		path: "keramik",
 		component: <Pottery />,
-		"class": "hide"
+		"class": "hide-on-extra-large-only"
 	}, {
 		name: "Galleri",
 		path: "galleri",
 		component: <Gallery />,
-		"class": "hide"
+		"class": "hide-on-extra-large-only"
 	}, {
 		name: "Aktiviter i området",
 		path: "aktiviteter",

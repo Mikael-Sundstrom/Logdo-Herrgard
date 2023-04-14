@@ -1,23 +1,10 @@
 #home-page {
 	section {
-		div.home-brands {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-around;
-
-			div {
-				display: flex;
-				flex-direction: column;
-				min-width: 267px;
-				align-items: center;
-				margin: 32px 0;
-				text-align: center;
-
-				.brand {
-					width: 100px;
-				}
-			}
+		.card-image {
+			max-width: 50%;
+			margin: auto;
 		}
+
 		.feature-image {
 			width: 100%;
 		}
@@ -25,7 +12,7 @@
 }
 
 /* Phones and tablets */
-@media only screen and (max-width: 1064px) {
+@media only screen and (max-width: $large-screen) {
 	#home-page {
 		section {
 			&.full-width-small {
@@ -33,9 +20,13 @@
 				margin-bottom: 32px;
 			}
 
-			div.home-brands {
-				flex-direction: column;
+			.card-image {
+				max-width: 30%;
 			}
+
+			/* div.home-brands {
+				flex-direction: column;
+			} */
 		}
 	}
 }

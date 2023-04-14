@@ -1,14 +1,18 @@
 // Core
-import AnimateFadePage from '../includes/_AnimateFadePage';
+import AnimateFadePage from '../includes/_AnimateFadePage'
 
 // Component
 const Error404 = () => {
 	return (
 		<AnimateFadePage>
-			<h2>Error404</h2>
-			<p>Page does not exists</p>
+			<div className="error-page">
+				<section className='section one'>
+					<h2>Error404</h2>
+					<p>Page does not exists</p>
+				</section>
+			</div>
 		</AnimateFadePage>
-	);
+	)
 }
 
 export default Error404

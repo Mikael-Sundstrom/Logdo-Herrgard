@@ -100,9 +100,8 @@ const Cafe = () => {
 								Kakor, bullar, cheesecake mm, vi har även smörgåsar som tex räksmörgås, leverpastej och Ceasar smörgås med kyckling, även ett vegetariskt alt.
 								Glass och kalla drycker
 							</p>
-							{/* <a href='mailto:logdoherrgard@icloud.com?subject=Boka kafe' className='btn waves-effect'>Boka kaféet<i className="material-icons left">mail</i></a> */}
 						</div>
-						<div className="col s12 m3 l3 offset-l1">
+						<div className="col s12 m3 l3 offset-l1 center-align">
 							<h5 className='first-title'>Öppettider</h5>
 							<br />
 							Från midsommar
@@ -110,6 +109,8 @@ const Cafe = () => {
 								<li>Lördagar: 11-15</li>
 								<li>Söndagar: 11-15</li>
 							</ul>
+							<br />
+							<a href='mailto:logdoherrgard@icloud.com?subject=Boka kafe' className='btn waves-effect'>Mejla kaféet<i className="material-icons left">mail</i></a>
 						</div>
 					</div>
 				</section>
@@ -119,17 +120,14 @@ const Cafe = () => {
 							<h3>Meny</h3>
 						</div>
 						<div className="col s12 m6">
-							<h4>Huvudrätter</h4>
-							<div id='food' className="carousel">
-								<a className="carousel-item" href="#cookie1!"><img alt='' src={mat1} /></a>
-								<a className="carousel-item" href="#cookie2!"><img alt='' src={mat2} /></a>
-								<a className="carousel-item" href="#cookie3!"><img alt='' src={mat3} /></a>
-								<a className="carousel-item" href="#cookie4!"><img alt='' src={mat4} /></a>
-							</div>
-						</div>
-						<div className="col s12 m6">
-							<h4>Efterrätter</h4>
+							<h4>Kafè</h4>
 							<div id='cookies' className="carousel">
+								<a className="carousel-item" href="#mackor!"><img alt='' src={mackor} /></a>
+								<a className="carousel-item" href="#macka1!"><img alt='' src={macka1} /></a>
+								<a className="carousel-item" href="#macka2!"><img alt='' src={macka2} /></a>
+								<a className="carousel-item" href="#macka3!"><img alt='' src={macka3} /></a>
+								<a className="carousel-item" href="#macka4!"><img alt='' src={macka4} /></a>
+								<a className="carousel-item" href="#macka5!"><img alt='' src={macka5} /></a>
 								<a className="carousel-item" href="#cookie1!"><img alt='' src={kakor1} /></a>
 								<a className="carousel-item" href="#cookie2!"><img alt='' src={kakor2} /></a>
 								<a className="carousel-item" href="#cookie3!"><img alt='' src={kakor3} /></a>
@@ -137,23 +135,15 @@ const Cafe = () => {
 								<a className="carousel-item" href="#cookie6!"><img alt='' src={kakor5} /></a>
 							</div>
 						</div>
-						<div className='section hide-on-small-only'><br /><br /></div>
 						<div className="col s12 m6">
-							<h4>Lantliga smörgåsar</h4>
-							<div id='sandwiches' className="carousel">
-								<a className="carousel-item" href="#one!"><img alt='' src={mackor} /></a>
-								<a className="carousel-item" href="#two!"><img alt='' src={macka1} /></a>
-								<a className="carousel-item" href="#three!"><img alt='' src={macka2} /></a>
-								<a className="carousel-item" href="#four!"><img alt='' src={macka3} /></a>
-								<a className="carousel-item" href="#five!"><img alt='' src={macka4} /></a>
-								<a className="carousel-item" href="#six!"><img alt='' src={macka5} /></a>
-							</div>
-						</div>
-						<div className="col s12 m6">
-							<h4>På beställning</h4>
+							<h4>Förfrågan</h4>
 							<div id='order' className="carousel">
 								<a className="carousel-item" href="#one!"><img alt='' src={smorgardstarta1} /></a>
 								<a className="carousel-item" href="#two!"><img alt='' src={smorgardstarta2} /></a>
+								<a className="carousel-item" href="#cookie1!"><img alt='' src={mat1} /></a>
+								<a className="carousel-item" href="#cookie2!"><img alt='' src={mat2} /></a>
+								<a className="carousel-item" href="#cookie3!"><img alt='' src={mat3} /></a>
+								<a className="carousel-item" href="#cookie4!"><img alt='' src={mat4} /></a>
 							</div>
 						</div>
 					</div>

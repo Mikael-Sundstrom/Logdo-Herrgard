@@ -18,13 +18,13 @@
 	}
 }
 /* Only for computers */
-@media only screen and (min-width: 1065px) {
+@media only screen and (min-width: $large-screen-up) {
 	/* #cafe-page {
 	} */
 }
 
 /* Phones and tablets */
-@media only screen and (max-width: 1064px) {
+@media only screen and (max-width: $large-screen) {
 	#cafe-page {
 		section.one {
 			img.bosse-gabby {

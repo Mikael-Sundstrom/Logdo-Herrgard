@@ -1,61 +1,31 @@
 import AnimateFadePage from '../includes/_AnimateFadePage'
-import fiske from './../assets/images/activities/optimized-ljustorpsan-mjallan.jpg'
-import kanot from './../assets/images/activities/optimized-kanot.jpg'
+/* import fiske from './../assets/images/activities/optimized-ljustorpsan-mjallan.jpg' */
 
 const Activities = () => {
 	return (
 		<AnimateFadePage>
 			<div id="activities-page">
 				<section className='section one'>
-					<div className="row">
+					<div className="row center-align">
 						<div className="col s12">
 							<h2>Aktiviteter i området</h2>
 							<br />
 						</div>
 						<div className="col s12 m6 l4">
-							<div className="card small">
-								<div className="card-image">
-									<img alt='' src={fiske} />
-									<span className="card-title">Fiske</span>
-								</div>
-								<div className="card-content">
-									<p>Fiska både i Ljustorpsån och Mjällån.</p>
-								</div>
-								<div className="card-action">
-									<a className='btn' target='_blank' rel="noreferrer" href='https://www.ifiske.se/fiske-ljustorpsan-och-mjallan.htm'>Köp fiskekort här</a>
-								</div>
-							</div>
+							<h4>Fiske</h4>
+							<p>Fiska både i Ljustorpsån och Mjällån.</p>
+							<a className='btn' target='_blank' rel="noreferrer" href='https://www.ifiske.se/fiske-ljustorpsan-och-mjallan.htm'>Köp fiskekort här</a>
+						</div>
+						<div className="col s12 m6 l4">
+							<h4>Kanot</h4>
+							<p>Sommartid så går det att hyra kanoter och paddla ner för Ljustorpsån.</p>
+							<a className='btn' target='_blank' rel="noreferrer" href='https://bygdegardarna.se/ljustorp/kanotuthyrning/'>Hyr hos Ljustorps byggdegård</a>
 						</div>
 
 						<div className="col s12 m6 l4">
-							<div className="card small">
-								<div className="card-image">
-									<img alt='' src={kanot} />
-									<span className="card-title">Kanot</span>
-								</div>
-								<div className="card-content">
-									<p>Sommartid så går det att hyra kanoter och paddla ner för Ljustorpsån.</p>
-								</div>
-								<div className="card-action">
-									<a className='btn' target='_blank' rel="noreferrer" href='https://bygdegardarna.se/ljustorp/kanotuthyrning/'>Hyr hos Ljustorps byggdegård</a>
-								</div>
-							</div>
-						</div>
-
-						<div className="col s12 m6 l4">
-							<div className="card small">
-								<div className="card-image">
-									<img alt='' src={kanot} />
-									<span className="card-title">Vandra & cykla</span>
-								</div>
-								<div className="card-content">
-									<p>Nära till naturområdet kring Indalsälvens delta där det finns härliga vandringsleder och havsbad.</p>
-									<p>Vid Midlanda flygplats så finns ett område kring Y:et (Bengt Lindström, konstnär) där det finns sago stig, lekplats, café, glassbar och grillplatser.</p>
-								</div>
-								<div className="card-action">
-									{/* <a className='btn' target='_blank' rel="noreferrer" href=''>Tom länk</a> */}
-								</div>
-							</div>
+							<h4>Vandra & cykla</h4>
+							<p>Nära till naturområdet kring Indalsälvens delta där det finns härliga vandringsleder och havsbad.</p>
+							<p>Vid Midlanda flygplats så finns ett område kring Y:et (Bengt Lindström, konstnär) där det finns sago stig, lekplats, café, glassbar och grillplatser.</p>
 						</div>
 
 						<div className="col s12 m6 l4">
@@ -125,9 +95,9 @@ const Activities = () => {
 							<p>• Sköts av Timrå SOK  och Sundsvalls Biathlon</p>
 						</div>
 					</div>
-				</section>
-			</div>
-		</AnimateFadePage>
+				</section >
+			</div >
+		</AnimateFadePage >
 	)
 }
 

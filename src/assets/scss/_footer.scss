@@ -74,7 +74,7 @@ aside {
 }
 
 /* Phones and tablets */
-@media only screen and (max-width: 1064px) {
+@media only screen and (max-width: $large-screen) {
 	footer,
 	aside {
 		div.footer {
