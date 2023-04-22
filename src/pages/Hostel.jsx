@@ -3,6 +3,8 @@ import AnimateFadePage from '../includes/_AnimateFadePage'
 /* import M from 'materialize-css/dist/js/materialize.min.js' */
 import { useEffect } from 'react'
 
+import placeholder from './../assets/images/placeholder-icon.jpg'
+
 
 const Hostel = () => {
 	useEffect(() => {
@@ -19,6 +21,13 @@ const Hostel = () => {
 						</div>
 						<div className="col s12">
 							<p>
+								Oavsett om du planerar en kort eller lång vistelse, så kommer vårt vandrarhem att ge dig en avkopplande och minnesvärd upplevelse mitt i den vackra naturen i Timrå. Vi ser fram emot att välkomna dig till Lögdö Herrgårds vandrarhem och göra din vistelse hos oss så bekväm och njutbar som möjligt.
+							</p>
+							<p>
+								Du kan njuta av lugn och ro i vår vackra trädgård, eller ta en promenad genom de natursköna omgivningarna. För de som vill ha mer aktiviteter finns det möjlighet till fiske, cykling och vandring med mera.
+							</p>
+							<img src={placeholder} alt="" />
+							<p>
 								På övre plan finns två dubbelrum och ett rum för fyra personer
 								matplats, soffa och fåtöljer.
 							</p>
@@ -27,6 +36,10 @@ const Hostel = () => {
 								toalett med dusch och tvättmaskin, samt torktumlare.
 							</p>
 						</div>
+					</div>
+				</section>
+				<section>
+					<div className="row">
 						<div className="col s12 center-align">
 							<h3>Pristabell</h3>
 							<table>
@@ -40,11 +53,11 @@ const Hostel = () => {
 								<tbody>
 									<tr>
 										<td>Egna lakan och handdukar</td>
-										<td>200:-/säng och dygn</td>
+										<td>100:-/säng och dygn</td>
 									</tr>
 									<tr>
-										<td>Lakan och handdukar</td>
-										<td>100:-/säng och dygn</td>
+										<td>Låna lakan och handdukar</td>
+										<td>200:-/säng och dygn</td>
 									</tr>
 									<tr>
 										<td>Frukost går att beställa</td>
@@ -59,6 +72,28 @@ const Hostel = () => {
 						</div>
 					</div>
 				</section>
+				{/* <footer>
+					<div className='footer'>
+						<div>
+							<div>
+								<h3 className='widget-title'>Om oss</h3>
+								<p>Björn Schumacher och Mattias Rustan äger Herrgården. Byggnaderna fungerar som privat boende, Bed and Brekfast och festlokal året om. På sommaren har vi även cafe där du kan sitta i en unik miljö.</p>
+								<p>På Herrgården finns det åtta sängplatser som är fördelade med ett enkelrum två dubbelrum och ett trebäddsrum. Ca 60 sittplatser i fördelat på två rum. Herrgårdens stolta snickartraditioner finns ännu bevarade och skapar en välkomnande atmosfär. De ljus och luftiga salongerna är stilfullt möblerade. Kristallkronorna och de vackra kakelugnarna förstärker den genuina miljön. Rummen är inreda i gammal stil och förstärka den miljön som det en gång har varit.</p>
+							</div>
+
+							<div>
+								<h3 className='widget-title'>Adress</h3>
+								<ul>
+									<li>Bruksvägen 27</li>
+									<li>861 92 Bergeforsen</li>
+									<li>072-230 33 37</li>
+									<li>logdoherrgard@icloud.com</li>
+								</ul>
+								<a href='https://goo.gl/maps/sQ267xUnx9jtPDY27' target='_blank' rel="noreferrer" className='waves-effect btn center'><i className="material-icons left">location_on</i>Google Maps</a>
+							</div>
+						</div>
+					</div>
+				</footer> */}
 			</div>
 		</AnimateFadePage>
 	)

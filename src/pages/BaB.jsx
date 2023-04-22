@@ -30,7 +30,7 @@ const BaB = () => {
 
 	return (
 		<AnimateFadePage>
-			<div id='bab-page'>
+			<div id='bab-page' className=''>
 				<section className='section one'>
 					<div className='row'>
 						<div className="col s12">
@@ -65,7 +65,7 @@ const BaB = () => {
 								<div className="card-stacked">
 									<div className="card-content">
 										<span className='card-title truncate activator'>Rum 2<i className="material-icons right">more_vert</i></span>
-										<p>Vårt charmiga trebäddsrum i lantlig stil med en lugn och harmonisk atmosfär. Du får återuppleva den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
+										<p>Vårt charmiga trebäddsrum i lantlig stil med en lugn och harmonisk atmosfär. Återupplev den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
 									</div>
 								</div>
 								<div className="card-reveal">
@@ -85,7 +85,7 @@ const BaB = () => {
 								<div className="card-stacked">
 									<div className="card-content">
 										<span className='card-title truncate activator'>Rum 3<i className="material-icons right">more_vert</i></span>
-										<p>Ett dubbelrum i gammal stil. Du får återuppleva den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
+										<p>Ett dubbelrum i gammal stil. Återupplev den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
 									</div>
 								</div>
 								<div className="card-reveal">
@@ -105,7 +105,7 @@ const BaB = () => {
 								<div className="card-stacked">
 									<div className="card-content">
 										<span className='card-title truncate activator'>Rum 5<i className="material-icons right">more_vert</i></span>
-										<p>Ett dubbelrum i gammal stil. Du får återuppleva den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
+										<p>Ett dubbelrum i gammal stil. Återupplev den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
 									</div>
 								</div>
 								<div className="card-reveal">
@@ -169,7 +169,7 @@ const BaB = () => {
 						</div>
 					</div>
 				</section>
-				<footer>
+				{/* <footer>
 					<div className='footer'>
 						<div>
 							<div>
@@ -186,11 +186,11 @@ const BaB = () => {
 									<li>072-230 33 37</li>
 									<li>logdoherrgard@icloud.com</li>
 								</ul>
-								<a href='https://goo.gl/maps/sQ267xUnx9jtPDY27' target='_blank' rel="noreferrer" className='waves-effect btn center'><i class="material-icons left">location_on</i>Google Maps</a>
+								<a href='https://goo.gl/maps/sQ267xUnx9jtPDY27' target='_blank' rel="noreferrer" className='waves-effect btn center'><i className="material-icons left">location_on</i>Google Maps</a>
 							</div>
 						</div>
 					</div>
-				</footer>
+				</footer> */}
 			</div>
 		</AnimateFadePage >
 	)

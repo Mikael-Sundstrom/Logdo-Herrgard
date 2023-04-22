@@ -77,14 +77,6 @@ const Place = () => {
 											<td>1000:-/halv dag</td>
 										</tr>
 										<tr>
-											<td>Fredag-söndag</td>
-											<td>2000:-/dag</td>
-										</tr>
-										<tr>
-											<td>Fredag-söndag <sup style={{ fontSize: '12px' }}>(kl 12 fre - 15 sön)</sup></td>
-											<td>5000:-</td>
-										</tr>
-										<tr>
 											<td>Städning av lokal och toaletter</td>
 											<td>1000:-</td>
 										</tr>
@@ -120,7 +112,7 @@ const Place = () => {
 						</div>
 					</div>
 				</section>
-				<footer>
+				{/* <footer>
 					<div className='footer'>
 						<div>
 							<div>
@@ -141,7 +133,7 @@ const Place = () => {
 							</div>
 						</div>
 					</div>
-				</footer>
+				</footer> */}
 			</div>
 		</AnimateFadePage >
 	)

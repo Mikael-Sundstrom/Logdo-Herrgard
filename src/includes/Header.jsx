@@ -33,7 +33,7 @@ const Header = (props) => {
 
 	return (
 		<header>
-			<nav>
+			<nav className='container'>
 				<NavLink to="/"><img className='monogram' src={logo} alt="logo" /></NavLink>
 				<h1><NavLink to={'/'}>Lögdö Herrgård</NavLink></h1>
 				<button type="button" data-target="nav-mobile" className="menu-button sidenav-trigger">
@@ -44,8 +44,7 @@ const Header = (props) => {
 				</ul>
 			</nav>
 
-			{/* <div className={slider ? "sidenav-overlay" : "sidenav-overlay hide"} onClick={() => setSlider(s => !s)} /> */}
-			<ul id="nav-mobile" className="sidenav" >
+			<ul id="nav-mobile" className="sidenav">
 				{nav}
 			</ul>
 		</header>

@@ -1,4 +1,4 @@
-footer,
+/* footer,
 aside {
 	display: flex;
 	flex-direction: column;
@@ -71,10 +71,10 @@ aside {
 			}
 		}
 	}
-}
+} */
 
 /* Phones and tablets */
-@media only screen and (max-width: $large-screen) {
+/* @media only screen and (max-width: $large-screen) {
 	footer,
 	aside {
 		div.footer {
@@ -93,6 +93,22 @@ aside {
 					}
 				}
 			}
+		}
+	}
+}
+ */
+footer.page-footer {
+	background-color: #f1f1f1;
+	color: #666;
+	a {
+		color: #666;
+	}
+	.footer-copyright {
+		background: rgba(#fff, $alpha: 0.5);
+		color: #999;
+		font-size: 0.85em;
+		a:hover {
+			text-decoration: underline;
 		}
 	}
 }

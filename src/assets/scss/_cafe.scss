@@ -1,6 +1,8 @@
 /* All sizes */
 #cafe-page {
 	section.one {
+		margin-bottom: 0;
+
 		img.bosse-gabby {
 			margin-bottom: 16px;
 			width: 100%;
@@ -15,6 +17,10 @@
 		.example img {
 			width: 128px;
 		}
+	}
+	.btn {
+		width: 160px;
+		margin-top: 16px;
 	}
 }
 /* Only for computers */
@@ -31,6 +37,9 @@
 				margin-bottom: 16px;
 				max-width: 100%;
 				margin-right: 0;
+			}
+			.first-title {
+				margin-top: 32px;
 			}
 		}
 	}

@@ -88,29 +88,32 @@ const Cafe = () => {
 						<div className="col s12 m4 l3">
 							<img className='bosse-gabby' alt='Gabby och Bosse' src={gabbyBosse} />
 						</div>
-						<div className="col s12 m5 l5">
+						<div className="col s12 m5 l6">
 							<p className='first-paragraph'>
-								Vi vill passa på att presentera oss då delmål 1 börjar att bli klart.
-								Gabbi och Bosse heter vi som har äran att få driva B&B och sommar café på Lögdö Herrgård.
-								Vi startar upp med sommar café midsommar söndagen och därefter varje helg 11-15, varmt välkomna.
-								För att boka rum eller har andra funderingar så är vårt telefonnummer <a className='inline-link' href="tel:+46722303337">072-2303337</a>. Dela gärna vidare då vi för närvarande använder bara den här kanalen😁
+								Vi är Gabbi och Bosse, och vi har den stora äran att driva B&B och sommarcafé på den vackra Lögdö Herrgård. Med midsommar runt hörnet startar vi upp med vårt sommarcafé, öppet varje helg mellan kl. 11-15. Vi hoppas att ni tar er tid att besöka oss och njuta av vårt sortiment av kakor, bullar, cheesecake och mycket mer.
 							</p>
 							<p>
-								Öppet från midsommar, lördagar och söndagar kl. 11-15 fram till 6 augusti.
-								Kakor, bullar, cheesecake mm, vi har även smörgåsar som tex räksmörgås, leverpastej och Ceasar smörgås med kyckling, även ett vegetariskt alt.
-								Glass och kalla drycker
+								Vi erbjuder även smörgåsar, där du kan välja mellan en mängd olika alternativ som räksmörgås, leverpastej och Ceasar smörgås med kyckling, och för våra vegetariska vänner har vi självklart även ett vegetariskt alternativ. Dessutom serverar vi glass och en mängd olika kalla drycker för att hålla er svala under sommaren.
+							</p>
+							<p>
+								Vi vill gärna påminna er om att ni också kan boka rum hos oss, och om ni har några frågor eller funderingar så är ni varmt välkomna att ringa oss. Vi hoppas att ni kommer och besöker oss och dela gärna med er av detta till era nära och kära, då vi för närvarande inte har så många kanaler för att nå ut till er.
+							</p>
+							<p>
+								Vi ser fram emot att träffa er och få ge er en trevlig upplevelse på Lögdö Herrgård.
 							</p>
 						</div>
-						<div className="col s12 m3 l3 offset-l1 center-align">
+						<div className="col s12 m3 l3 center-align">
 							<h5 className='first-title'>Öppettider</h5>
 							<br />
-							Från midsommar
+							Från midsommar - 16 augusti
 							<ul>
 								<li>Lördagar: 11-15</li>
 								<li>Söndagar: 11-15</li>
 							</ul>
 							<br />
-							<a href='mailto:logdoherrgard@icloud.com?subject=Boka kafe' className='btn waves-effect'>Mejla kaféet<i className="material-icons left">mail</i></a>
+							<a className='btn waves-effect' href='mailto:logdoherrgard@icloud.com?subject=Boka kafe'>Mejla kaféet<i className="material-icons left">mail</i></a>
+							<br />
+							<a className='btn waves-effect' href="tel:+46722303337">072-2303337<i className="material-icons left">phone</i></a>
 						</div>
 					</div>
 				</section>

@@ -77,7 +77,7 @@ const App = () => {
 		<>
 			<Header routes={routes} />
 
-			<main>
+			<main className='container'>
 				<ScrollToTop />
 				<AnimatePresence exitBeforeEnter>
 					<Routes key={location.pathname} location={location}>

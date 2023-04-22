@@ -26,7 +26,7 @@ const Home = () => {
 									<img className='center-align' src={bab} alt='logo' />
 								</div>
 								<div className="card-content center-align">
-									<span className="card-title">Bed and Brekfast</span>
+									<span className="card-title">B&B</span>
 									<p>Kom och upplev hergårdslivet här hos oss i Lögdö utanför Timrå.</p>
 									<br />
 									<Link to='/BaB' className="btn ">Besök B&B</Link>
@@ -74,8 +74,7 @@ const Home = () => {
 						</div>
 					</div>
 				</section>
-
-				<footer>
+				{/* <footer>
 					<div className='footer'>
 						<div>
 							<div>
@@ -92,11 +91,11 @@ const Home = () => {
 									<li>072-230 33 37</li>
 									<li>logdoherrgard@icloud.com</li>
 								</ul>
-								<a href='https://goo.gl/maps/sQ267xUnx9jtPDY27' target='_blank' rel="noreferrer" className='waves-effect btn center'><i class="material-icons left">location_on</i>Google Maps</a>
+								<a href='https://goo.gl/maps/sQ267xUnx9jtPDY27' target='_blank' rel="noreferrer" className='waves-effect btn center'><i className="material-icons left">location_on</i>Google Maps</a>
 							</div>
 						</div>
 					</div>
-				</footer>
+				</footer> */}
 			</div>
 		</AnimateFadePage>
 	)
