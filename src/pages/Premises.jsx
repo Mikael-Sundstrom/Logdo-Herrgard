@@ -3,20 +3,12 @@ import AnimateFadePage from '../includes/_AnimateFadePage'
 import M from 'materialize-css/dist/js/materialize.min.js'
 import { useEffect } from 'react'
 
-/* import rum1 from './../assets/images/bab/512/rum1.jpg'
-import rum2 from './../assets/images/bab/512/rum2.jpg'
-import rum3 from './../assets/images/bab/512/rum3.jpg'
-import rum5 from './../assets/images/bab/512/rum5.jpg'
-import foaje1 from './../assets/images/bab/512/foaje-1.jpg'
-import foaje2 from './../assets/images/bab/512/foaje-2.jpg'
-import foaje3 from './../assets/images/bab/512/foaje-3.jpg'
-import bibliotek from './../assets/images/bab/512/bibliotek.jpg'
-import toalettPlan2 from './../assets/images/bab/512/toalett-plan2.jpg'
-import toalettMedDuschPlan2 from './../assets/images/bab/512/toalett-med-dusch-plan2.jpg' */
+import ljustorpsan2 from './../assets/images/gallery/Ljustorpsan-2.jpg'
+import harbre from './../assets/images/gallery/Harbre.jpg'
 
 
 // Component
-const Place = () => {
+const Premises = () => {
 	useEffect(() => {
 		M.Materialbox.init(document.querySelectorAll('.materialboxed'), {
 			inDuration: 200,
@@ -25,6 +17,12 @@ const Place = () => {
 			onOpenEnd: null,
 			onCloseStart: null,
 			onCloseEnd: null
+		})
+		M.Slider.init(document.querySelectorAll('.slider'), {
+			indicators: true,
+			height: 600,
+			duration: 1000,
+			interval: 6000
 		})
 	})
 
@@ -37,17 +35,39 @@ const Place = () => {
 							<h2>Lokaler</h2>
 							<br />
 						</div>
-						<div className="col s12 m10 offset-m1 l6">
-							Ett
-						</div>
-						<div className="col s12 m10 offset-m1 l6">
-							Två
-						</div>
-						<div className="col s12 m10 offset-m1 l6">
-							Tre
-						</div>
-						<div className="col s12 m10 offset-m1 l6">
-							Fyra
+						<div className="col s12">
+							<div className="slider">
+								<ul className="slides">
+									<li>
+										<img src={ljustorpsan2} alt='' />
+										<div className="caption center-align">
+											<h3>Boka middag och lunch</h3>
+											<h5 className="light grey-text text-lighten-3">Ha en trevlig familjedag</h5>
+										</div>
+									</li>
+									<li>
+										<img src={harbre} alt='' />
+										<div className="caption left-align">
+											<h3>Kursdagar</h3>
+											<h5 className="light grey-text text-lighten-3">Matsalen tar upp till 50 personer</h5>
+										</div>
+									</li>
+									<li>
+										<img src="https://lorempixel.com/580/250/nature/3" alt='' />
+										<div className="caption right-align">
+											<h3>Konferens inkl lunch och fika</h3>
+											<h5 className="light grey-text text-lighten-3">Samla ihop ert lag och </h5>
+										</div>
+									</li>
+									<li>
+										<img src="https://lorempixel.com/580/250/nature/4" alt='' />
+										<div className="caption center-align">
+											<h3>Hyr trädgården</h3>
+											<h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
+										</div>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -139,4 +159,4 @@ const Place = () => {
 	)
 }
 
-export default Place
+export default Premises

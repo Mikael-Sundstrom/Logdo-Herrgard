@@ -53,11 +53,11 @@ const Hostel = () => {
 								<tbody>
 									<tr>
 										<td>Egna lakan och handdukar</td>
-										<td>100:-/säng och dygn</td>
+										<td>200:-/säng och dygn</td>
 									</tr>
 									<tr>
 										<td>Låna lakan och handdukar</td>
-										<td>200:-/säng och dygn</td>
+										<td>100:-/säng</td>
 									</tr>
 									<tr>
 										<td>Frukost går att beställa</td>
@@ -68,7 +68,7 @@ const Hostel = () => {
 							<br />
 							<br />
 							<br />
-							<a href='mailto:logdoherrgard@icloud.com?subject=Boka' className='waves-effect waves-light btn center'>Mejla för att boka <i className="material-icons left">mail</i></a>
+							<a href='mailto:logdoherrgard@icloud.com?subject=Boka' className='waves-effect waves-light btn center'>Mejla förfrågan <i className="material-icons left">mail</i></a>
 						</div>
 					</div>
 				</section>

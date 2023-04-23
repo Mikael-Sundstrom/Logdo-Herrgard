@@ -16,7 +16,7 @@ import Pottery from './pages/Pottery'
 // Components
 import Header from './includes/Header'
 import Footer from './includes/Footer'
-import Place from './pages/Place'
+import Premises from './pages/Premises'
 
 // Routes
 // https://materializecss.com/helpers.html#hiding
@@ -44,7 +44,7 @@ const routes = [
 	}, {
 		name: "Lokaler",
 		path: "lokal",
-		component: <Place />,
+		component: <Premises />,
 		"class": "show"
 	}, {
 		name: "Keramik",
