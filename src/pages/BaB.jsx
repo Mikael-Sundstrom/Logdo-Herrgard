@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import rum1 from './../assets/images/bab/512/rum1.jpg'
 import rum2 from './../assets/images/bab/512/rum2.jpg'
 import rum3 from './../assets/images/bab/512/rum3.jpg'
+import rum4 from './../assets/images/bab/512/rum4.jpg'
 import rum5 from './../assets/images/bab/512/rum5.jpg'
 import foaje1 from './../assets/images/bab/512/foaje-1.jpg'
 import foaje2 from './../assets/images/bab/512/foaje-2.jpg'
@@ -30,8 +31,8 @@ const BaB = () => {
 
 	return (
 		<AnimateFadePage>
-			<div id='bab-page' className=''>
-				<section className='section one'>
+			<div id='bab-page'>
+				<section className='section one container'>
 					<div className='row'>
 						<div className="col s12">
 							<h2>Rum</h2>
@@ -100,6 +101,26 @@ const BaB = () => {
 						<div className="col s12 m10 offset-m1 l6">
 							<div className="card horizontal">
 								<div className="card-image">
+									<img alt='' src={rum4} className='materialboxed' />
+								</div>
+								<div className="card-stacked">
+									<div className="card-content">
+										<span className='card-title truncate activator'>Rum 4<i className="material-icons right">more_vert</i></span>
+										<p>Ett enkelrum i gammal stil. Återupplev den gammaldagsa stilen som vi tidigare hade i Sverige.</p>
+									</div>
+								</div>
+								<div className="card-reveal">
+									<span className="card-title grey-text text-darken-4">Rum 4<i className="material-icons right">close</i></span>
+									<ul>
+										<li>Dubbelrum</li>
+										<li>695:-/natt <sup>ink. frukost</sup></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div className="col s12 m10 offset-m1 l6 offset-l3">
+							<div className="card horizontal">
+								<div className="card-image">
 									<img alt='' src={rum5} className='materialboxed' />
 								</div>
 								<div className="card-stacked">
@@ -130,7 +151,7 @@ const BaB = () => {
 						</div>
 					</div>
 				</section>
-				<section>
+				<section className='section two container'>
 					<div className="row">
 						<div className="col s12 center-align">
 							<h3>Pristabell</h3>
@@ -169,28 +190,6 @@ const BaB = () => {
 						</div>
 					</div>
 				</section>
-				{/* <footer>
-					<div className='footer'>
-						<div>
-							<div>
-								<h3 className='widget-title'>Om oss</h3>
-								<p>Björn Schumacher och Mattias Rustan äger Herrgården. Byggnaderna fungerar som privat boende, Bed and Brekfast och festlokal året om. På sommaren har vi även cafe där du kan sitta i en unik miljö.</p>
-								<p>På Herrgården finns det åtta sängplatser som är fördelade med ett enkelrum två dubbelrum och ett trebäddsrum. Ca 60 sittplatser i fördelat på två rum. Herrgårdens stolta snickartraditioner finns ännu bevarade och skapar en välkomnande atmosfär. De ljus och luftiga salongerna är stilfullt möblerade. Kristallkronorna och de vackra kakelugnarna förstärker den genuina miljön. Rummen är inreda i gammal stil och förstärka den miljön som det en gång har varit.</p>
-							</div>
-
-							<div>
-								<h3 className='widget-title'>Adress</h3>
-								<ul>
-									<li>Bruksvägen 27</li>
-									<li>861 92 Bergeforsen</li>
-									<li>072-230 33 37</li>
-									<li>logdoherrgard@icloud.com</li>
-								</ul>
-								<a href='https://goo.gl/maps/sQ267xUnx9jtPDY27' target='_blank' rel="noreferrer" className='waves-effect btn center'><i className="material-icons left">location_on</i>Google Maps</a>
-							</div>
-						</div>
-					</div>
-				</footer> */}
 			</div>
 		</AnimateFadePage >
 	)

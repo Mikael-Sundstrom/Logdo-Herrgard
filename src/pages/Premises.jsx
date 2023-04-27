@@ -3,8 +3,9 @@ import AnimateFadePage from '../includes/_AnimateFadePage'
 import M from 'materialize-css/dist/js/materialize.min.js'
 import { useEffect } from 'react'
 
-import ljustorpsan2 from './../assets/images/gallery/Ljustorpsan-2.jpg'
-import harbre from './../assets/images/gallery/Harbre.jpg'
+import library from './../assets/images/premises/library_1.jpg'
+import diningRoom from './../assets/images/premises/dining-room_6.jpg'
+import garden from './../assets/images/premises/garden_1.jpg'
 
 
 // Component
@@ -20,7 +21,7 @@ const Premises = () => {
 		})
 		M.Slider.init(document.querySelectorAll('.slider'), {
 			indicators: true,
-			height: 600,
+			height: 500,
 			duration: 1000,
 			interval: 6000
 		})
@@ -28,7 +29,7 @@ const Premises = () => {
 
 	return (
 		<AnimateFadePage>
-			<div id='place-page'>
+			<div id='premises-page'>
 				<section className='section one'>
 					<div className='row'>
 						<div className="col s12">
@@ -39,31 +40,27 @@ const Premises = () => {
 							<div className="slider">
 								<ul className="slides">
 									<li>
-										<img src={ljustorpsan2} alt='' />
+										<img src={diningRoom} alt='matsal' />
 										<div className="caption center-align">
-											<h3>Boka middag och lunch</h3>
-											<h5 className="light grey-text text-lighten-3">Ha en trevlig familjedag</h5>
+											<h3>Boka lunch och middag</h3>
+											<h5>Ha en trevlig familjedag</h5>
+											<br />
 										</div>
 									</li>
 									<li>
-										<img src={harbre} alt='' />
+										<img src={library} alt='bibliotek' />
 										<div className="caption left-align">
-											<h3>Kursdagar</h3>
-											<h5 className="light grey-text text-lighten-3">Matsalen tar upp till 50 personer</h5>
+											<h3>Kursdag eller konferens</h3>
+											<h5>Matsalen tar upp till 50 personer</h5>
+											<br />
 										</div>
 									</li>
 									<li>
-										<img src="https://lorempixel.com/580/250/nature/3" alt='' />
+										<img src={garden} alt='trädgård' />
 										<div className="caption right-align">
-											<h3>Konferens inkl lunch och fika</h3>
-											<h5 className="light grey-text text-lighten-3">Samla ihop ert lag och </h5>
-										</div>
-									</li>
-									<li>
-										<img src="https://lorempixel.com/580/250/nature/4" alt='' />
-										<div className="caption center-align">
 											<h3>Hyr trädgården</h3>
-											<h5 className="light grey-text text-lighten-3">Here's our small slogan.</h5>
+											<h5>För utomhusaktivitéter</h5>
+											<br />
 										</div>
 									</li>
 								</ul>
@@ -71,7 +68,7 @@ const Premises = () => {
 						</div>
 					</div>
 				</section>
-				<section>
+				<section className='section two container'>
 					<div className="row">
 						<div className="col s12 center-align">
 							<div>
@@ -109,7 +106,7 @@ const Premises = () => {
 											<td>1000:-/dag</td>
 										</tr>
 										<tr>
-											<td>Konferens inkl lunch och fika</td>
+											<td>Konferens <sup>ink. lunch & fika</sup></td>
 											<td>400:-/person</td>
 										</tr>
 									</tbody>

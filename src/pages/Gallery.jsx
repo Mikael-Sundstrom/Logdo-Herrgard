@@ -20,7 +20,7 @@ const Gallery = () => {
 	return (
 		<AnimateFadePage>
 			<div id="gallery-page">
-				<section className='section one'>
+				<section className='section one container'>
 					<div className="row">
 						<div className="col s12">
 							<h2>Galleri</h2>

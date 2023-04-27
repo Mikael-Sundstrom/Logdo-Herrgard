@@ -6,11 +6,8 @@
 @import "./assets/scss/_cafe";
 @import "./assets/scss/_history";
 @import "./assets/scss/_activities";
-
-/* Global Styles */
-/* .hide {
-	display: none !important;
-} */
+@import "./assets/scss/_premises";
+@import "./assets/scss/_hostel";
 
 a {
 	color: #666;
@@ -63,7 +60,7 @@ body {
 				section {
 					margin: auto;
 					margin-bottom: 64px;
-					/* max-width: 1064px; */
+					max-width: 1200px;
 
 					&:last-child {
 						margin-bottom: 64px;

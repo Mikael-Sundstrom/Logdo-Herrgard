@@ -14,8 +14,8 @@ const Footer = () => {
 					<div className="col s12 m4 offset-m1">
 						<h3 className='widget-title'>Övrigt</h3>
 						<ul>
-							<li><Link to='/historia'>Historia</Link></li>
-							<li><Link to='/aktiviteter'>Området</Link></li>
+							<li><Link to='/historia'>Historia om Lögdö</Link></li>
+							<li><Link to='/aktiviteter'>Aktiviteter i området</Link></li>
 							<li><Link to='/galleri'>Galleri</Link></li>
 						</ul>
 
@@ -23,10 +23,13 @@ const Footer = () => {
 						<ul>
 							<li>Bruksvägen 27</li>
 							<li>861 92 Bergeforsen</li>
-							<li>072-230 33 37</li>
-							<li>logdoherrgard@icloud.com</li>
+							<li><a className='inline-link' href="tel:+46722303337">072-230 33 37</a></li>
+							<li><a className='inline-link' href="mailto:logdoherrgard@icloud.com">logdoherrgard@icloud.com</a></li>
 						</ul>
+						<br />
 						<a href='https://goo.gl/maps/sQ267xUnx9jtPDY27' target='_blank' rel="noreferrer" className='waves-effect btn center'><i className="material-icons left">location_on</i>Google Maps</a>
+						<br />
+						<br />
 					</div>
 				</div>
 			</div>

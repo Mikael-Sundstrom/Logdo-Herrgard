@@ -1,0 +1,11 @@
+#premises-page {
+	section {
+		.caption {
+			background: rgba($color: #000000, $alpha: 0.6) !important;
+		}
+	}
+}
+
+/* Phones and tablets */
+@media only screen and (max-width: $large-screen) {
+}

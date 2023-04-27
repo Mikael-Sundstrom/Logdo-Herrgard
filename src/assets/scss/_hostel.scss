@@ -1,0 +1,25 @@
+/* All sizes */
+#hostel-page {
+	img {
+		width: 100%;
+		max-width: 512px;
+	}
+}
+/* Computers */
+@media only screen and (min-width: $large-screen-up) {
+	/* #hostel-page {
+		img {
+			float: left;
+		}
+	} */
+}
+
+/* Phones */
+/* @media only screen and (max-width: $small-screen) {
+	#hostel-page {
+		img {
+			max-width: 100%;
+			padding-right: 0;
+		}
+	}
+} */

@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/logdo-herrgard/static/css/main.97b2aaaa.css",
-    "main.js": "/logdo-herrgard/static/js/main.4cff92dd.js",
+    "main.css": "/logdo-herrgard/static/css/main.3e3c1802.css",
+    "main.js": "/logdo-herrgard/static/js/main.7754b921.js",
     "static/js/787.2d04492b.chunk.js": "/logdo-herrgard/static/js/787.2d04492b.chunk.js",
+    "static/media/library_1.jpg": "/logdo-herrgard/static/media/library_1.9ab8164b147acef7555b.jpg",
+    "static/media/dining-room_6.jpg": "/logdo-herrgard/static/media/dining-room_6.ba37c2c9b7e1e00aab6b.jpg",
     "static/media/Harbre.jpg": "/logdo-herrgard/static/media/Harbre.dd4e4cccce8766e07560.jpg",
     "static/media/Ljustorpsan-2.jpg": "/logdo-herrgard/static/media/Ljustorpsan-2.3df41d1883e74d16c0d7.jpg",
+    "static/media/garden_1.jpg": "/logdo-herrgard/static/media/garden_1.c3ec90ea5a2c3908a456.jpg",
     "static/media/Harbre-med-sommarloppis1.png": "/logdo-herrgard/static/media/Harbre-med-sommarloppis1.f956b2a21c502b21e14a.png",
+    "static/media/mosaic.jpg": "/logdo-herrgard/static/media/mosaic.26b7ea85f8794ba4f4d0.jpg",
     "static/media/optimized-kakor-2.jpg": "/logdo-herrgard/static/media/optimized-kakor-2.57dcd80f86b7fb979071.jpg",
     "static/media/optimized-smorgardstarta-bestalla-1.jpg": "/logdo-herrgard/static/media/optimized-smorgardstarta-bestalla-1.d78d9bd7cbd1dbc10490.jpg",
     "static/media/optimized-kakor-5.jpg": "/logdo-herrgard/static/media/optimized-kakor-5.39b618c344041330e85c.jpg",
@@ -18,6 +22,7 @@
     "static/media/optimized-kakor-4.jpg": "/logdo-herrgard/static/media/optimized-kakor-4.7ab401a11ab07d7ae813.jpg",
     "static/media/optimized-mat-3.jpg": "/logdo-herrgard/static/media/optimized-mat-3.fd6e7f2618205454f57f.jpg",
     "static/media/optimized-kakor-3.jpg": "/logdo-herrgard/static/media/optimized-kakor-3.cceb2670101e773b10b1.jpg",
+    "static/media/rum4.jpg": "/logdo-herrgard/static/media/rum4.4bc28425b2060d4624fa.jpg",
     "static/media/optimized-mat-2.jpg": "/logdo-herrgard/static/media/optimized-mat-2.19badc2dde6284afeb65.jpg",
     "static/media/bibliotek.jpg": "/logdo-herrgard/static/media/bibliotek.0ebbaa37ebef0eedd340.jpg",
     "static/media/start.jpg": "/logdo-herrgard/static/media/start.9d20574fef53b3b96d2f.jpg",
@@ -30,23 +35,24 @@
     "static/media/optimized-mat-1.jpg": "/logdo-herrgard/static/media/optimized-mat-1.8ad27f106d1ca0afb737.jpg",
     "static/media/optimized-macka-2.jpg": "/logdo-herrgard/static/media/optimized-macka-2.005a2821a62c3ad023f9.jpg",
     "static/media/foaje-1.jpg": "/logdo-herrgard/static/media/foaje-1.2d833c0efdc5bb2676c7.jpg",
-    "static/media/cafe.jpg": "/logdo-herrgard/static/media/cafe.ab9b5c509f3c65a63749.jpg",
     "static/media/toalett-med-dusch-plan2.jpg": "/logdo-herrgard/static/media/toalett-med-dusch-plan2.f7435ad2f93a3d93549d.jpg",
     "static/media/toalett-plan2.jpg": "/logdo-herrgard/static/media/toalett-plan2.f52399861691b6171cc5.jpg",
-    "static/media/bab2.jpg": "/logdo-herrgard/static/media/bab2.187577265e320233e81f.jpg",
     "static/media/optimized-macka-3.jpg": "/logdo-herrgard/static/media/optimized-macka-3.facf489b5b9115ac0498.jpg",
+    "static/media/cafe.jpg": "/logdo-herrgard/static/media/cafe.6e832375e82681ca07d2.jpg",
     "static/media/optimized-macka-5.jpg": "/logdo-herrgard/static/media/optimized-macka-5.22cced227bec21e84d15.jpg",
+    "static/media/hostel.jpg": "/logdo-herrgard/static/media/hostel.bc55ec64ec03d5a7db8c.jpg",
     "static/media/optimized-macka-4.jpg": "/logdo-herrgard/static/media/optimized-macka-4.d7b6ed3c5e16eecd039b.jpg",
     "static/media/logo.jpg": "/logdo-herrgard/static/media/logo.b6a6c8c121aa67c40ce4.jpg",
     "static/media/gabby-och-bosse.jpg": "/logdo-herrgard/static/media/gabby-och-bosse.694480a21b7ecbdbe65c.jpg",
     "static/media/optimized-macka-1.jpg": "/logdo-herrgard/static/media/optimized-macka-1.849b5acf75ad99b95e6f.jpg",
+    "static/media/bab.jpg": "/logdo-herrgard/static/media/bab.07069d0518c6fb3baf79.jpg",
     "index.html": "/logdo-herrgard/index.html",
-    "main.97b2aaaa.css.map": "/logdo-herrgard/static/css/main.97b2aaaa.css.map",
-    "main.4cff92dd.js.map": "/logdo-herrgard/static/js/main.4cff92dd.js.map",
+    "main.3e3c1802.css.map": "/logdo-herrgard/static/css/main.3e3c1802.css.map",
+    "main.7754b921.js.map": "/logdo-herrgard/static/js/main.7754b921.js.map",
     "787.2d04492b.chunk.js.map": "/logdo-herrgard/static/js/787.2d04492b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97b2aaaa.css",
-    "static/js/main.4cff92dd.js"
+    "static/css/main.3e3c1802.css",
+    "static/js/main.7754b921.js"
   ]
 }

@@ -5,7 +5,7 @@ const Activities = () => {
 	return (
 		<AnimateFadePage>
 			<div id="activities-page">
-				<section className='section one'>
+				<section className='section one container'>
 					<div className="row center-align">
 						<div className="col s12">
 							<h2>Aktiviteter i området</h2>

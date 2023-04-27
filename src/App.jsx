@@ -50,7 +50,7 @@ const routes = [
 		name: "Keramik",
 		path: "keramik",
 		component: <Pottery />,
-		"class": "hide-on-extra-large-only"
+		"class": "hide"
 	}, {
 		name: "Galleri",
 		path: "galleri",
@@ -60,7 +60,7 @@ const routes = [
 		name: "Aktiviter i området",
 		path: "aktiviteter",
 		component: <Activities />,
-		"class": "show"
+		"class": "hide-on-extra-large-only"
 	}, {
 		name: "Historia",
 		path: "historia",
@@ -77,7 +77,7 @@ const App = () => {
 		<>
 			<Header routes={routes} />
 
-			<main className='container'>
+			<main>
 				<ScrollToTop />
 				<AnimatePresence exitBeforeEnter>
 					<Routes key={location.pathname} location={location}>

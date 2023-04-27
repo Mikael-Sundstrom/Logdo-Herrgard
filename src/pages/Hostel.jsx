@@ -1,32 +1,43 @@
 import AnimateFadePage from '../includes/_AnimateFadePage'
 
-/* import M from 'materialize-css/dist/js/materialize.min.js' */
+import M from 'materialize-css/dist/js/materialize.min.js'
 import { useEffect } from 'react'
 
-import placeholder from './../assets/images/placeholder-icon.jpg'
+import mosaic from './../assets/images/hostel/mosaic.jpg'
 
 
 const Hostel = () => {
 	useEffect(() => {
+		M.Materialbox.init(document.querySelectorAll('.materialboxed'), {
+			inDuration: 200,
+			outDuration: 150,
+			onOpenStart: null,
+			onOpenEnd: null,
+			onCloseStart: null,
+			onCloseEnd: null
+		})
 	})
 
 	return (
 		<AnimateFadePage>
 			<div id="hostel-page">
-				<section className='section one'>
+				<section className='section one container'>
 					<div className="row">
 						<div className="col s12">
 							<h2>Vandrarhem</h2>
 							<br />
 						</div>
-						<div className="col s12">
+						<div className="col m12 l6 center">
+							<br />
+							<img src={mosaic} alt="" className='materialboxed' />
+						</div>
+						<div className="col m12 l6">
 							<p>
 								Oavsett om du planerar en kort eller lång vistelse, så kommer vårt vandrarhem att ge dig en avkopplande och minnesvärd upplevelse mitt i den vackra naturen i Timrå. Vi ser fram emot att välkomna dig till Lögdö Herrgårds vandrarhem och göra din vistelse hos oss så bekväm och njutbar som möjligt.
 							</p>
 							<p>
 								Du kan njuta av lugn och ro i vår vackra trädgård, eller ta en promenad genom de natursköna omgivningarna. För de som vill ha mer aktiviteter finns det möjlighet till fiske, cykling och vandring med mera.
 							</p>
-							<img src={placeholder} alt="" />
 							<p>
 								På övre plan finns två dubbelrum och ett rum för fyra personer
 								matplats, soffa och fåtöljer.
@@ -38,7 +49,7 @@ const Hostel = () => {
 						</div>
 					</div>
 				</section>
-				<section>
+				<section className='section two container'>
 					<div className="row">
 						<div className="col s12 center-align">
 							<h3>Pristabell</h3>

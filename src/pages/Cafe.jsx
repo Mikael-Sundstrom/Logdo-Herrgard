@@ -79,16 +79,16 @@ const Cafe = () => {
 	return (
 		<AnimateFadePage>
 			<div id="cafe-page">
-				<section className='section one'>
+				<section className='section one container'>
 					<div className="row">
 						<div className='col s12'>
 							<h2 className='center'>Kafé</h2>
 							<br />
 						</div>
-						<div className="col s12 m4 l3">
+						<div className="col s12 m4 l2 offset-m1">
 							<img className='bosse-gabby' alt='Gabby och Bosse' src={gabbyBosse} />
 						</div>
-						<div className="col s12 m5 l6">
+						<div className="col s12 m6 l6">
 							<p className='first-paragraph'>
 								Vi är Gabbi och Bosse, och vi har den stora äran att driva B&B och sommarcafé på den vackra Lögdö Herrgård. Med midsommar runt hörnet startar vi upp med vårt sommarcafé, öppet varje helg mellan kl. 11-15. Vi hoppas att ni tar er tid att besöka oss och njuta av vårt sortiment av kakor, bullar, cheesecake och mycket mer.
 							</p>
@@ -102,7 +102,7 @@ const Cafe = () => {
 								Vi ser fram emot att träffa er och få ge er en trevlig upplevelse på Lögdö Herrgård.
 							</p>
 						</div>
-						<div className="col s12 m3 l3 center-align">
+						<div className="col s12 m4 l4 offset-m4 center-align">
 							<h5 className='first-title'>Öppettider</h5>
 							<br />
 							Från midsommar - 16 augusti
@@ -117,7 +117,7 @@ const Cafe = () => {
 						</div>
 					</div>
 				</section>
-				<section className='section two'>
+				<section className='section two container'>
 					<div className="row">
 						<div className="col s12">
 							<h3>Meny</h3>
