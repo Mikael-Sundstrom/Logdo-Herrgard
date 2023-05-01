@@ -5,26 +5,26 @@ import { useEffect } from 'react'
 
 // Images
 import gabbyBosse from './../assets/images/kafe/gabby-och-bosse.jpg'
-import mackor from './../assets/images/kafe/optimized-mackor-1.jpg'
-import macka1 from './../assets/images/kafe/optimized-macka-1.jpg'
-import macka2 from './../assets/images/kafe/optimized-macka-2.jpg'
-import macka3 from './../assets/images/kafe/optimized-macka-3.jpg'
-import macka4 from './../assets/images/kafe/optimized-macka-4.jpg'
-import macka5 from './../assets/images/kafe/optimized-macka-5.jpg'
+import mackor from './../assets/images/kafe/256/mackor-1.jpg'
+import macka1 from './../assets/images/kafe/256/macka-1.jpg'
+import macka2 from './../assets/images/kafe/256/macka-2.jpg'
+import macka3 from './../assets/images/kafe/256/macka-3.jpg'
+import macka4 from './../assets/images/kafe/256/macka-4.jpg'
+import macka5 from './../assets/images/kafe/256/macka-5.jpg'
 
-import kakor1 from './../assets/images/kafe/optimized-kakor-1.jpg'
-import kakor2 from './../assets/images/kafe/optimized-kakor-2.jpg'
-import kakor3 from './../assets/images/kafe/optimized-kakor-3.jpg'
-import kakor4 from './../assets/images/kafe/optimized-kakor-4.jpg'
-import kakor5 from './../assets/images/kafe/optimized-kakor-5.jpg'
+import kakor1 from './../assets/images/kafe/256/kakor-1.jpg'
+import kakor2 from './../assets/images/kafe/256/kakor-2.jpg'
+import kakor3 from './../assets/images/kafe/256/kakor-3.jpg'
+import kakor4 from './../assets/images/kafe/256/kakor-4.jpg'
+import kakor5 from './../assets/images/kafe/256/kakor-5.jpg'
 
-import mat1 from './../assets/images/kafe/optimized-mat-1.jpg'
-import mat2 from './../assets/images/kafe/optimized-mat-2.jpg'
-import mat3 from './../assets/images/kafe/optimized-mat-3.jpg'
-import mat4 from './../assets/images/kafe/optimized-mat-4.jpg'
+import mat1 from './../assets/images/kafe/256/mat-1.jpg'
+import mat2 from './../assets/images/kafe/256/mat-2.jpg'
+import mat3 from './../assets/images/kafe/256/mat-3.jpg'
+import mat4 from './../assets/images/kafe/256/mat-4.jpg'
 
-import smorgardstarta1 from './../assets/images/kafe/optimized-smorgardstarta-bestalla-1.jpg'
-import smorgardstarta2 from './../assets/images/kafe/optimized-smorgardstarta-bestalla-2.jpg'
+import smorgardstarta1 from './../assets/images/kafe/256/smorgardstarta-bestalla-1.jpg'
+import smorgardstarta2 from './../assets/images/kafe/256/smorgardstarta-bestalla-2.jpg'
 
 
 // Component

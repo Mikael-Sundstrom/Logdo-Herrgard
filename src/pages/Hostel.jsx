@@ -39,7 +39,7 @@ const Hostel = () => {
 								Du kan njuta av lugn och ro i vår vackra trädgård, eller ta en promenad genom de natursköna omgivningarna. För de som vill ha mer aktiviteter finns det möjlighet till fiske, cykling och vandring med mera.
 							</p>
 							<p>
-								På övre plan finns två dubbelrum och ett rum för fyra personer
+								På övre plan finns två dubbelrum och ett rum för fyra personer,
 								matplats, soffa och fåtöljer.
 							</p>
 							<p>
@@ -79,7 +79,7 @@ const Hostel = () => {
 							<br />
 							<br />
 							<br />
-							<a href='mailto:logdoherrgard@icloud.com?subject=Boka' className='waves-effect waves-light btn center'>Mejla förfrågan <i className="material-icons left">mail</i></a>
+							<a href='mailto:logdoherrgard@icloud.com?subject=Boka' className='waves-effect waves-light btn center'>Bokningsförfrågan <i className="material-icons left">mail</i></a>
 						</div>
 					</div>
 				</section>

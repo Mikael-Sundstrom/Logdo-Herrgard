@@ -55,7 +55,7 @@ const routes = [
 		name: "Galleri",
 		path: "galleri",
 		component: <Gallery />,
-		"class": "hide-on-extra-large-only"
+		"class": "hide"
 	}, {
 		name: "Aktiviter i området",
 		path: "aktiviteter",

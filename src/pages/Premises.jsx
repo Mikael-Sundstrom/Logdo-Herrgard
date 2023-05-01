@@ -3,9 +3,9 @@ import AnimateFadePage from '../includes/_AnimateFadePage'
 import M from 'materialize-css/dist/js/materialize.min.js'
 import { useEffect } from 'react'
 
-import library from './../assets/images/premises/library_1.jpg'
-import diningRoom from './../assets/images/premises/dining-room_6.jpg'
-import garden from './../assets/images/premises/garden_1.jpg'
+import library from './../assets/images/premises/1200/library_1.jpg'
+import diningRoom from './../assets/images/premises/1200/dining-room_6.jpg'
+import garden from './../assets/images/premises/1200/garden_1.jpg'
 
 
 // Component

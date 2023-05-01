@@ -177,16 +177,12 @@ const BaB = () => {
 										<td>Trebäddsrum</td>
 										<td>1690:-/natt</td>
 									</tr>
-									<tr>
-										<td>Endast frukost</td>
-										<td>75:-/person</td>
-									</tr>
 								</tbody>
 							</table>
 							<br />
 							<br />
 							<br />
-							<a href='mailto:logdoherrgard@icloud.com?subject=Boka' className='waves-effect btn center'>Mejla förfrågan <i className="material-icons left">mail</i></a>
+							<a href='mailto:logdoherrgard@icloud.com?subject=Boka' className='waves-effect btn center'>Bokningsförfrågan <i className="material-icons left">mail</i></a>
 						</div>
 					</div>
 				</section>
