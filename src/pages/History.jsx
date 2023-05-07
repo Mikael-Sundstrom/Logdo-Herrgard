@@ -1,6 +1,6 @@
 import AnimateFadePage from '../includes/_AnimateFadePage'
-import lada from './../assets/images/history/512/Harbre-med-sommarloppis1.png'
-import kapell from './../assets/images/history/512/Logdo-kapell.jpg'
+import lada from './../assets/images/history/512/Harbre-med-sommarloppis1.webp'
+import kapell from './../assets/images/history/512/Logdo-kapell.webp'
 
 const History = () => {
 	return (

@@ -1,13 +1,11 @@
 import { Link } from "react-router-dom"
 import AnimateFadePage from '../includes/_AnimateFadePage'
 
-import img1 from './../assets/images/start.jpg'
-/* import placeholder from './../assets/images/placeholder-icon.jpg' */
-import bab from './../assets/images/home/bab.jpg'
-import hostel from './../assets/images/home/hostel.jpg'
-import img_cafe from './../assets/images/home/cafe.jpg'
-import premises from './../assets/images/home/premises.jpg'
-/* import img_activity from './../assets/images/home/activities.jpg' */
+import img1 from './../assets/images/home/start.webp'
+import bab from './../assets/images/home/bab.webp'
+import hostel from './../assets/images/home/hostel.webp'
+import img_cafe from './../assets/images/home/cafe.webp'
+import premises from './../assets/images/home/premises.webp'
 
 
 const Home = () => {

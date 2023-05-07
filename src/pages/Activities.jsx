@@ -1,5 +1,5 @@
 import AnimateFadePage from '../includes/_AnimateFadePage'
-import fiske from './../assets/images/activities/fiske.jpg'
+import fiske from './../assets/images/activities/512/fiske.webp'
 
 const Activities = () => {
 	return (

@@ -3,7 +3,7 @@ import AnimateFadePage from '../includes/_AnimateFadePage'
 import M from 'materialize-css/dist/js/materialize.min.js'
 import { useEffect } from 'react'
 
-import mosaic from './../assets/images/hostel/mosaic.jpg'
+import mosaic from './../assets/images/hostel/512/mosaic.webp'
 
 
 const Hostel = () => {
